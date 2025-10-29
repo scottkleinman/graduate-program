@@ -1,0 +1,26 @@
+    #navigation {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+    }
+
+    nav[data-toggle="toc"] {
+      top: 42px;
+      font-size: smaller;
+    }
+    
+    /* small screens */
+    @media (max-width: 768px) {
+      /* override stickyness so that the navigation does not follow scrolling */
+      nav[data-toggle="toc"] {
+        margin-bottom: 42px;
+        position: static;
+      }
+      
+    }
