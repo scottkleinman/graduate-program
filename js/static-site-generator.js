@@ -417,7 +417,7 @@ class StaticSiteGenerator {
             <div class="text-center mt-5">
                 <h1>Page Not Found</h1>
                 <p>Sorry, the page you're looking for doesn't exist.</p>
-                <a href="/" class="btn btn-primary">Go Home</a>
+                <a href="/graduate-program/" class="btn btn-primary">Go Home</a>
             </div>
         `;
     }
