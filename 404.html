@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSUN English Graduate Program Resources</title>
+
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap5.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Enhanced Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon and PWA meta tags -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="theme-color" content="#d22030">
+    <meta name="description" content="Resources and course information for CSUN English Graduate Program students">
+
+    <!-- Open Graph meta tags for social sharing -->
+    <meta property="og:title" content="CSUN English Graduate Program Resources">
+    <meta property="og:description" content="Resources and course information for CSUN English Graduate Program students">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Skip Navigation Link for Screen Readers -->
+    <a href="#app-content" class="skip-nav">Skip to main content</a>
+
+    <!-- Enhanced Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <span aria-label="CSUN English Graduate Program">📚 English Graduate Program</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" id="home-nav" aria-label="Home page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about" id="about-nav" aria-label="About the program">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/prospective-students" id="prospective-nav" aria-label="Information for prospective students">Prospective Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/new-students" id="new-students-nav" aria-label="Information for new students">New Students</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false" aria-label="Course schedules menu">
+                            Course Schedules
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/courses/spring-2026" id="spring-2026-nav">Spring 2026</a></li>
+                            <li><a class="dropdown-item" href="/courses/fall-2025" id="fall-2025-nav">Fall 2025</a></li>
+                            <li><a class="dropdown-item" href="/courses/spring-2025" id="spring-2025-nav">Spring 2025</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container-fluid" role="main">
+        <div id="app-content" aria-live="polite" aria-label="Main content area">
+            <!-- Dynamic content will be loaded here -->
+            <div class="text-center mt-5">
+                <div class="spinner-border" role="status" aria-label="Loading">
+                    <span class="visually-hidden">Loading page content...</span>
+                </div>
+                <p class="mt-2">Loading page content...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Enhanced Back to Top Button -->
+    <button type="button" class="btn" id="btn-back-to-top"
+            aria-label="Back to top" title="Back to top">
+        <i class="bi bi-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/datatables.net@2.1.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/datatables.net-bs5@2.1.8/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
+    <script src="https://unpkg.com/page@1.11.6/page.js"></script>
+    <script src="js/bootstrap-toc.min.js"></script>
+    <script src="future-offerings.js"></script>
+    <script src="js/static-site-generator.js"></script>
+</body>
+</html>
