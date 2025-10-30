@@ -455,7 +455,7 @@ class StaticSiteGenerator {
 
             // Initialize DataTables for course pages
             if (pageName.includes('courses-') && typeof future2 !== 'undefined') {
-                this.initializeCourseTable();
+                this.initializeCourseTable(frontMatter);
             }
 
             // Only scroll to top if this is a real page change (not a hash navigation)
@@ -468,18 +468,23 @@ class StaticSiteGenerator {
     /**
      * Initialize DataTables for course schedule
      */
-    initializeCourseTable() {
+    initializeCourseTable(frontMatter) {
         const tableContainer = document.getElementById('course-schedule-table');
         if (tableContainer && typeof future2 !== 'undefined') {
             try {
                 // Create table element
                 tableContainer.innerHTML = '<table class="table table-bordered table-hover table-light table-striped mb-3" id="schedule"></table>';
 
-                // Use the first key in the future object to get the next semester's courses
-                const nextSemester = future2[Object.keys(future2)[0]];
-                if (nextSemester && nextSemester.courses) {
+                // Use semester-id from front matter to get the correct semester's courses
+                let semesterId = frontMatter && frontMatter['semester-id'];
+                let semesterData = semesterId ? future2[semesterId] : null;
+                // Fallback to first key if not found
+                if (!semesterData) {
+                    semesterData = future2[Object.keys(future2)[0]];
+                }
+                if (semesterData && semesterData.courses) {
                     const courses = [];
-                    for (const course of nextSemester.courses) {
+                    for (const course of semesterData.courses) {
                         courses.push([course.name, course.day, course.time, course.instructor]);
                     }
                     new DataTable("#schedule", {

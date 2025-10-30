@@ -3,6 +3,7 @@ title: "Fall 2025 Course Offerings - CSUN English Graduate Program"
 layout: "course"
 nav_id: "courses"
 semester: "Fall 2025"
+semester-id: "F25"
 ---
 
 # Fall 2025 Course Offerings
