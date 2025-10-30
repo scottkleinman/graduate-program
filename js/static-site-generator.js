@@ -260,7 +260,7 @@ class StaticSiteGenerator {
         }
 
         try {
-            const response = await fetch(`/pages/${pageName}.md`);
+            const response = await fetch(`/graduate-program/pages/${pageName}.md`);
             if (!response.ok) {
                 throw new Error(`Failed to load ${pageName}.md`);
             }
