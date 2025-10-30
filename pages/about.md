@@ -156,4 +156,4 @@ Students enrolled in MA programs have three options for completing their culmina
 
 ## Teaching Associates Program
 
-The English Department at California State University, Northridge has developed an especially strong program for training teachers in teaching first year composition. Composition is a required course in most American colleges and universities today, and Teaching Associates have the opportunity to teach our first-year writers as sole instructors in the classroom. More information on the progam and how to apply can be found [here](flyers/TA_Application_FALL_26.pdf).
+The English Department at California State University, Northridge has developed an especially strong program for training teachers in teaching first year composition. Composition is a required course in most American colleges and universities today, and Teaching Associates have the opportunity to teach our first-year writers as sole instructors in the classroom. More information on the progam and how to apply can be found [here](flyers/TA_Application_FALL_26.pdf){target="_blank"}.

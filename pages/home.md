@@ -6,7 +6,7 @@ nav_id: "home"
 
 I am Scott Kleinman, the English Graduate Adviser. I am hosting these resources on my own website because it is easier to maintain than the official CSUN website and because I can avoid some of the visual clutter of the CSUN template. Please note that official information is still available on the [English Department's Graduate Programs page](https://www.csun.edu/humanities/english/graduate-programs){target="_blank"}.
 
-General information about the program is available on the [About page](/about). If you are new to the program, start with the [New Students page](/new-students).
+General information about the program is available on the [About page](/graduate-program/about). If you are new to the program, start with the [New Students page](/graduate-program/new-students).
 
 For information on upcoming courses, click "Course Offerings" in the menu above.
 

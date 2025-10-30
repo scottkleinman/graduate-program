@@ -8,7 +8,7 @@ nav_id: "newStudents"
 
 The CSUN English Department's MA program has three options: Creative Writing, Literature, and Rhetoric & Composition. Although you must choose an option when beginning your program, there is space for you to change options. Please consult the Graduate Adviser if you choose to do this.
 
-Graduate students typically take 2-3 courses per semester. See the information on the [About page](/about) for information about full-time status and its implications for financial aid.
+Graduate students typically take 2-3 courses per semester. See the information on the [About page](/graduate-program/about) for information about full-time status and its implications for financial aid.
 
 New students should attempt to enroll in ENGL 507 (Introduction to Graduate Studies) in their first or second semester. Registration for ENGL 507 (Introduction to Graduate Studies) is by permission number only. To obtain a permission number, please contact the Graduate Coordinator, Frank de la Santo ([frank.delasanto@csun.edu](mailto:frank.delasanto@csun.edu)).
 
