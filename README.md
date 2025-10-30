@@ -12,11 +12,14 @@ This website uses a **client-side static site generator** approach:
 - **Styling**: Bootstrap 5 for responsive design
 - **Interactivity**: DataTables for course schedules, Bootstrap TOC for navigation
 
+This is not a true static site generator, as there is no build step. Instead, markdown files are rendered in the browser. This means that it takes longer for pages to load, but not significantly if the material is relatively simple. That is worth the sacrifice for not having to re-build and deploy the site after each change -- at least for the intended use.
+
 ## File Structure
 
 ```txt
 /
 ├── index.html                          # Main application template
+├── 404.html                            # Re-routes all file not found errors to index.html
 ├── pages/                              # Markdown content files
 │   ├── home.md                         # Home page content
 │   ├── about.md                        # About page content
@@ -32,12 +35,6 @@ This website uses a **client-side static site generator** approach:
 │   ├── bootstrap-toc.min.css
 │   └── styles.css
 ├── future-offerings.js                 # Course data
-├── legacy/                             # Legacy files (moved from old system)
-│   ├── router.js                       # Old router
-│   ├── navigation.js                   # Old navigation
-│   ├── partials/                       # Old navigation partials
-│   ├── templates/                      # Old HTML templates
-│   └── *.html                          # Old HTML files
 └── README.md                           # This file
 ```
 
@@ -68,7 +65,7 @@ This website uses a **client-side static site generator** approach:
 
 - Uses Page.js for client-side routing
 - Clean URLs (e.g., `/graduate-program/about`)
-- Legacy redirects for backwards compatibility
+- Legacy redirects for backwards compatibility (may not work due to rapid development, but it should work once the links are checked)
 - Browser history support
 
 ### 4. Features
@@ -82,7 +79,7 @@ This website uses a **client-side static site generator** approach:
 
 ### New Page
 
-1. Create a markdown file in `pages/` directory:
+1. Create a markdown file in `pages/` directory. It should have the following YAML front matter:
 
    ```markdown
    ---
@@ -104,7 +101,7 @@ This website uses a **client-side static site generator** approach:
    page('/graduate-program/new-page', () => this.loadPage('new-page'));
    ```
 
-3. Add navigation link in `index.html` (if needed):
+3. Add navigation link in `index.html` and `404.html` (if needed):
 
    ```html
    <a id="newPage" class="nav-link" href="/graduate-program/new-page">New Page</a>
