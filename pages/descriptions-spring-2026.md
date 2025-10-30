@@ -6,7 +6,7 @@ semester: "Spring 2026 Course Descriptions"
 ---
 
 <div class="mt-3 mb-3">
-    <a class="btn btn-sm btn-primary" role="button" href="/courses/spring-2026">&lt;&lt; Back to Course Information</a>
+    <a class="btn btn-sm btn-primary" role="button" href="/graduate-program/courses/spring-2026">&lt;&lt; Back to Course Information</a>
 </div>
 
 Below are course descriptions submitted by instructors for Spring 2026 graduate courses and certain 400-level English classes likely to be of interest to grad students. More descriptions will be added as they are received by the Graduate Adviser.

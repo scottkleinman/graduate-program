@@ -15,7 +15,7 @@ semester: "Spring 2026"
 
 ## Course Descriptions
 
-Faculty-submitted course descriptions can be found [here](/courses/descriptions-spring-2026).
+Faculty-submitted course descriptions can be found [here](/graduate-program/courses/descriptions-spring-2026).
 
 ---
 

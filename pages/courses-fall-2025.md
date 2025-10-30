@@ -15,7 +15,7 @@ semester: "Fall 2025"
 
 ## Course Descriptions
 
-Faculty-submitted course descriptions can be found [in the course descriptions document](/courses/descriptions-fall-2025).
+Faculty-submitted course descriptions can be found [in the course descriptions document](/graduate-program/courses/descriptions-fall-2025).
 
 ---
 

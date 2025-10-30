@@ -6,7 +6,7 @@ semester: "Fall 2025 Course Descriptions"
 ---
 
 <div class="mt-3 mb-3">
-    <a class="btn btn-sm btn-primary" role="button" href="/courses/fall-2025">&lt;&lt; Back to Course Information</a>
+    <a class="btn btn-sm btn-primary" role="button" href="/graduate-program/courses/fall-2025">&lt;&lt; Back to Course Information</a>
 </div>
 
 # CSUN MA in English — Fall 2025 Course Descriptions
