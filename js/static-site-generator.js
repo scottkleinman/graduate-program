@@ -224,7 +224,6 @@ class StaticSiteGenerator {
      * @param {string} pageName - Name of the page to load
      */
     async loadPage(pageName) {
-    console.log('[loadPage] Loading page:', pageName);
         try {
             // Check if we're loading the same page (used to prevent scroll on hash navigation)
             const isPageChange = this.currentPage !== pageName;
@@ -234,7 +233,6 @@ class StaticSiteGenerator {
 
             // Load markdown content
             const { frontMatter, content } = await this.loadMarkdownPage(pageName);
-            console.log('[loadPage] frontMatter:', frontMatter);
 
             // Render content
             const htmlContent = this.md.render(content);
@@ -438,8 +436,6 @@ class StaticSiteGenerator {
      * @param {Object} frontMatter - Page front matter
      */
     reinitializeComponents(pageName, frontMatter) {
-    console.log('[reinitializeComponents] pageName:', pageName);
-    console.log('[reinitializeComponents] frontMatter:', frontMatter);
         // Accept a third argument: isPageChange
         setTimeout(() => {
             const layout = frontMatter.layout || 'default';
@@ -481,11 +477,8 @@ class StaticSiteGenerator {
 
                 // Use semester-id from front matter to get the correct semester's courses
                 let semesterId = frontMatter && frontMatter['semester-id'];
-                console.log(semesterId);
-                console.log(future2);
                 let semesterData = semesterId ? future2[semesterId] : null;
                 // Fallback to first key if not found
-                console.log("Falling back to first semester data");
                 if (!semesterData) {
                     semesterData = future2[Object.keys(future2)[0]];
                 }
