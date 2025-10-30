@@ -162,32 +162,31 @@ class StaticSiteGenerator {
      */
     initializeRouter() {
         // Primary routes
-        page('/', () => this.loadPage('home'));
-        page('/', () => this.loadPage('home'));
-        page('/about', () => this.loadPage('about'));
-        page('/prospective-students', () => this.loadPage('prospective-students'));
-        page('/new-students', () => this.loadPage('new-students'));
+        page('/graduate-program/', () => this.loadPage('home'));
+        page('/graduate-program/', () => this.loadPage('home'));
+        page('/graduate-program/about', () => this.loadPage('about'));
+        page('/graduate-program/prospective-students', () => this.loadPage('prospective-students'));
+        page('/graduate-program/new-students', () => this.loadPage('new-students'));
         // Course routes
-        page('/courses/spring-2026', () => this.loadPage('courses-spring-2026'));
-        page('/courses/descriptions-spring-2026', () => this.loadPage('descriptions-spring-2026'));
+        page('/graduate-program/courses/spring-2026', () => this.loadPage('courses-spring-2026'));
+        page('/graduate-program/courses/descriptions-spring-2026', () => this.loadPage('descriptions-spring-2026'));
+        page('/graduate-program/courses/fall-2025', () => this.loadPage('courses-fall-2025'));
+        page('/graduate-program/courses/descriptions-fall-2025', () => this.loadPage('descriptions-fall-2025'));
 
-        page('/courses/fall-2025', () => this.loadPage('courses-fall-2025'));
-        page('/courses/descriptions-fall-2025', () => this.loadPage('descriptions-fall-2025'));
-
-        page('/courses/spring-2025', () => this.loadPage('courses-spring-2025'));
-        page('/courses/descriptions-spring-2025', () => this.loadPage('descriptions-spring-2025'));
+        page('/graduate-program/courses/spring-2025', () => this.loadPage('courses-spring-2025'));
+        page('/graduate-program/courses/descriptions-spring-2025', () => this.loadPage('descriptions-spring-2025'));
 
         // Legacy redirects for backwards compatibility
-        page('/about.html', () => page.redirect('/about'));
-        page('/prospective-students.html', () => page.redirect('/prospective-students'));
-        page('/new-students.html', () => page.redirect('/new-students'));
+        page('/graduate-program/about.html', () => page.redirect('/graduate-program/about'));
+        page('/graduate-program/prospective-students.html', () => page.redirect('/graduate-program/prospective-students'));
+        page('/graduate-program/new-students.html', () => page.redirect('/graduate-program/new-students'));
 
-        page('/grad-courses-spring-2026.html', () => page.redirect('/courses/spring-2026'));
-        page('/grad-courses-descriptions-spring-2026.html', () => page.redirect('/courses/spring-2026'));
-        page('/grad-courses-fall-2025.html', () => page.redirect('/courses/fall-2025'));
-        page('/grad-courses-descriptions-fall-2025.html', () => page.redirect('/courses/descriptions-fall-2025'));
-        page('/grad-courses-spring-2025.html', () => page.redirect('/courses/spring-2025'));
-        page('/grad-courses-descriptions-spring-2025.html', () => page.redirect('/courses/descriptions-spring-2025'));
+        page('/graduate-program/grad-courses-spring-2026.html', () => page.redirect('/graduate-program/courses/spring-2026'));
+        page('/graduate-program/grad-courses-descriptions-spring-2026.html', () => page.redirect('/graduate-program/courses/spring-2026'));
+        page('/graduate-program/grad-courses-fall-2025.html', () => page.redirect('/graduate-program/courses/fall-2025'));
+        page('/graduate-program/grad-courses-descriptions-fall-2025.html', () => page.redirect('/graduate-program/courses/descriptions-fall-2025'));
+        page('/graduate-program/grad-courses-spring-2025.html', () => page.redirect('/graduate-program/courses/spring-2025'));
+        page('/graduate-program/grad-courses-descriptions-spring-2025.html', () => page.redirect('/graduate-program/courses/descriptions-spring-2025'));
 
         // Catch-all for 404s
         page('*', () => this.showErrorPage());
