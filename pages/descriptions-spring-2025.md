@@ -9,17 +9,17 @@ semester: "Spring 2025 Course Descriptions"
     <a class="btn btn-sm btn-primary" role="button" href="/graduate-program/courses/spring-2025">&lt;&lt; Back to Course Information</a>
 </div>
 
-Below are course descriptions and links to flyers submitted by instructors for Spring 2025 graduate courses and certain 400-level English classes likely to be of interest to grad students. More descriptions/flyers will be added as they are received by the Graduate Adviser.
+Below are course descriptions and links to flyers submitted by instructors for Spring 2025 graduate courses and certain 400-level English classes likely to be of interest to grad students. More descriptions/flyers will be added as they are received by the Graduate Adviser. Duncan
 
-### ENGL 507 Introduction to Graduate Studies -- Underwood ([Flyer](/flyers/ENGL507.pdf){target="_blank"})
+### ENGL 507 Introduction to Graduate Studies -- Underwood ([Flyer](/graduate-program/flyers/ENGL507.pdf){target="_blank"})
 
 English 507 introduces students to graduate-level research and writing skills across the three options in the English MA program: Literature, Creative Writing, and Rhetoric and Composition. **An additional section of this course has been added with the same instructor and description.**
 
-### ENGL 512 Writing for Performance -- Mitchell ([Flyer](/flyers/ENGL512.pdf){target="_blank"})
+### ENGL 512 Writing for Performance -- Mitchell ([Flyer](/graduate-program/flyers/ENGL512.pdf){target="_blank"})
 
 Intensive study of writing for performance. Students will write and workshop performance texts and read related published texts, including plays, one-person shows, stand-up comedy routines, and performance art pieces. This course is available both for graduate credit (for graduate students) and undergraduate credit. Additionally, this course may be taken by undergraduates in the Creative Writing Option as a Senior Seminar. Undergraduate students must have senior standing. English 512 may be repeated once for credit by both graduate and undergraduate students.
 
-### ENGL 525AGL Avant Garde Literature -- Higgs ([Flyer](/flyers/ENGL525AGL.pdf){target="_blank"})
+### ENGL 525AGL Avant Garde Literature -- Higgs ([Flyer](/graduate-program/flyers/ENGL525AGL.pdf){target="_blank"})
 
 Pulsing with an ethos of dissent, disruption, and institutional critique, from the early 20th century Dadaists to the contemporary Black Radical Tradition, avant-garde artistic practice has consistently challenged conventions, undermined authority, resisted rules, and worked toward dismantling normative patterns of social behavior. With an emphasis on reading, thinking, discussing, and writing both critically and creatively, this graduate course will examine avant-garde literature from the past to the present in order to gain valuable approaches to impacting social issues today.
 
@@ -37,7 +37,7 @@ Prerequisite: ENGL 417 or equivalent. Advanced study of several of Shakespeare's
 
 Intensive critical study of the province of poetry, providing opportunity for the scrutiny of individual poets as well as for concentration on the wider historical perspective.
 
-### ENGL 630TTT Twice-Told Tales -- Byler ([Flyer](/flyers/ENGL630TTT.pdf){target="_blank"})
+### ENGL 630TTT Twice-Told Tales -- Byler ([Flyer](/graduate-program/flyers/ENGL630TTT.pdf){target="_blank"})
 
 Why do some stories and literary characters persistently capture readers’ imaginations, reappearing in various adaptations, spin-offs, and modern guises? What does or doesn’t make a literary work translatable from one age and place to another? Why do certain narratives endure in spite of differences between the cultures that tell them and even in spite of cultural violence done by these narratives? This class will examine several popular texts published in England during the nineteenth century and explore their afterlives in twenty-first-century American and British adaptations. We will consider the politics of retelling tales, considering whether affection, appropriation, resistance, interpretation, or critique drives each reimagining. Texts may include Charlotte Brontë’s _Jane Eyre_ (1847), Patricia Park’s _Re Jane_ (2015), Elizabeth Barrett Browning’s _Aurora Leigh_ (1856), Elizabeth Acevedo’s _The Poet X_ (2018), Arthur Conan Doyle’s _A Study in Scarlet_ (1887), Steven Moffat’s and Mark Gatiss’s television series _Sherlock_ (2010-2017), and Karl Bollers’s, Rick Leonardi’s, and Larry Stroman’s graphic novel _Watson and Holmes: A Study in Black_ (2013). We will also engage critical work by scholars such as W.E.B. du Bois, José Esteban Muñoz, Gayatri Chakravorty Spivak, and Saidiya Hartman.
 
@@ -45,7 +45,7 @@ Why do some stories and literary characters persistently capture readers’ imag
 
 Intense discussion and analysis of theories of rhetoric and composition.
 
-### ENGL 654 Advanced Rhetoric and Composition -- Khadka ([Flyer](/flyers/ENGL654.pdf){target="_blank"})
+### ENGL 654 Advanced Rhetoric and Composition -- Khadka ([Flyer](/graduate-program/flyers/ENGL654.pdf){target="_blank"})
 
 Preparatory: ENGL 651. Intense advanced study of a specialized area, topic, question, or problem in the field of rhetoric and composition. Topics vary from semester to semester. May be repeated once for credit, provided topic is different.
 

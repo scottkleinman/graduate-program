@@ -2,6 +2,8 @@
  * Static Site Generator for CSUN English Graduate Program Website
  * Uses markdown-it for rendering markdown files with YAML front matter
  */
+const BASE_PATH = '/graduate-program';
+
 class StaticSiteGenerator {
     constructor() {
         this.md = window.markdownit({
@@ -29,20 +31,23 @@ class StaticSiteGenerator {
         this.md.renderer.rules.link_open = function (tokens, idx, options, env, renderer) {
             // Get the current token
             const token = tokens[idx];
-
-            // Find target attribute in HTML and preserve it
-            const href = token.attrGet('href');
-            if (href && (href.startsWith('http') || href.startsWith('https'))) {
-                // Only add target="_blank" if not already specified
-                if (!token.attrGet('target')) {
-                    token.attrSet('target', '_blank');
+            let href = token.attrGet('href');
+            if (href) {
+                // Only add BASE_PATH to root-relative links (not absolute URLs)
+                if (href.startsWith('/') && !href.startsWith(BASE_PATH) && !href.match(/^\/(?:[a-zA-Z]+:|\/)/)) {
+                    // Avoid double slashes
+                    token.attrSet('href', BASE_PATH + href);
                 }
-                // Only add rel if not already specified
-                if (!token.attrGet('rel')) {
-                    token.attrSet('rel', 'noopener noreferrer');
+                // Only add target/rel for external links
+                if (href.startsWith('http') || href.startsWith('https')) {
+                    if (!token.attrGet('target')) {
+                        token.attrSet('target', '_blank');
+                    }
+                    if (!token.attrGet('rel')) {
+                        token.attrSet('rel', 'noopener noreferrer');
+                    }
                 }
             }
-
             return defaultLinkRender(tokens, idx, options, env, renderer);
         };
 
@@ -162,31 +167,33 @@ class StaticSiteGenerator {
      */
     initializeRouter() {
         // Primary routes
-        page('/graduate-program/', () => this.loadPage('home'));
-        page('/graduate-program/', () => this.loadPage('home'));
-        page('/graduate-program/about', () => this.loadPage('about'));
-        page('/graduate-program/prospective-students', () => this.loadPage('prospective-students'));
-        page('/graduate-program/new-students', () => this.loadPage('new-students'));
-        // Course routes
-        page('/graduate-program/courses/spring-2026', () => this.loadPage('courses-spring-2026'));
-        page('/graduate-program/courses/descriptions-spring-2026', () => this.loadPage('descriptions-spring-2026'));
-        page('/graduate-program/courses/fall-2025', () => this.loadPage('courses-fall-2025'));
-        page('/graduate-program/courses/descriptions-fall-2025', () => this.loadPage('descriptions-fall-2025'));
 
-        page('/graduate-program/courses/spring-2025', () => this.loadPage('courses-spring-2025'));
-        page('/graduate-program/courses/descriptions-spring-2025', () => this.loadPage('descriptions-spring-2025'));
+    // Primary routes
+    page(`${BASE_PATH}/`, () => this.loadPage('home'));
+    page(`${BASE_PATH}/`, () => this.loadPage('home'));
+    page(`${BASE_PATH}/about`, () => this.loadPage('about'));
+    page(`${BASE_PATH}/prospective-students`, () => this.loadPage('prospective-students'));
+    page(`${BASE_PATH}/new-students`, () => this.loadPage('new-students'));
+    // Course routes
+    page(`${BASE_PATH}/courses/spring-2026`, () => this.loadPage('courses-spring-2026'));
+    page(`${BASE_PATH}/courses/descriptions-spring-2026`, () => this.loadPage('descriptions-spring-2026'));
+    page(`${BASE_PATH}/courses/fall-2025`, () => this.loadPage('courses-fall-2025'));
+    page(`${BASE_PATH}/courses/descriptions-fall-2025`, () => this.loadPage('descriptions-fall-2025'));
 
-        // Legacy redirects for backwards compatibility
-        page('/graduate-program/about.html', () => page.redirect('/graduate-program/about'));
-        page('/graduate-program/prospective-students.html', () => page.redirect('/graduate-program/prospective-students'));
-        page('/graduate-program/new-students.html', () => page.redirect('/graduate-program/new-students'));
+    page(`${BASE_PATH}/courses/spring-2025`, () => this.loadPage('courses-spring-2025'));
+    page(`${BASE_PATH}/courses/descriptions-spring-2025`, () => this.loadPage('descriptions-spring-2025'));
 
-        page('/graduate-program/grad-courses-spring-2026.html', () => page.redirect('/graduate-program/courses/spring-2026'));
-        page('/graduate-program/grad-courses-descriptions-spring-2026.html', () => page.redirect('/graduate-program/courses/spring-2026'));
-        page('/graduate-program/grad-courses-fall-2025.html', () => page.redirect('/graduate-program/courses/fall-2025'));
-        page('/graduate-program/grad-courses-descriptions-fall-2025.html', () => page.redirect('/graduate-program/courses/descriptions-fall-2025'));
-        page('/graduate-program/grad-courses-spring-2025.html', () => page.redirect('/graduate-program/courses/spring-2025'));
-        page('/graduate-program/grad-courses-descriptions-spring-2025.html', () => page.redirect('/graduate-program/courses/descriptions-spring-2025'));
+    // Legacy redirects for backwards compatibility
+    page(`${BASE_PATH}/about.html`, () => page.redirect(`${BASE_PATH}/about`));
+    page(`${BASE_PATH}/prospective-students.html`, () => page.redirect(`${BASE_PATH}/prospective-students`));
+    page(`${BASE_PATH}/new-students.html`, () => page.redirect(`${BASE_PATH}/new-students`));
+
+    page(`${BASE_PATH}/grad-courses-spring-2026.html`, () => page.redirect(`${BASE_PATH}/courses/spring-2026`));
+    page(`${BASE_PATH}/grad-courses-descriptions-spring-2026.html`, () => page.redirect(`${BASE_PATH}/courses/spring-2026`));
+    page(`${BASE_PATH}/grad-courses-fall-2025.html`, () => page.redirect(`${BASE_PATH}/courses/fall-2025`));
+    page(`${BASE_PATH}/grad-courses-descriptions-fall-2025.html`, () => page.redirect(`${BASE_PATH}/courses/descriptions-fall-2025`));
+    page(`${BASE_PATH}/grad-courses-spring-2025.html`, () => page.redirect(`${BASE_PATH}/courses/spring-2025`));
+    page(`${BASE_PATH}/grad-courses-descriptions-spring-2025.html`, () => page.redirect(`${BASE_PATH}/courses/descriptions-spring-2025`));
 
         // Catch-all for 404s
         page('*', () => this.showErrorPage());
@@ -260,7 +267,7 @@ class StaticSiteGenerator {
         }
 
         try {
-            const response = await fetch(`/graduate-program/pages/${pageName}.md`);
+            const response = await fetch(`${BASE_PATH}/pages/${pageName}.md`);
             if (!response.ok) {
                 throw new Error(`Failed to load ${pageName}.md`);
             }
