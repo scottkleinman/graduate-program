@@ -2,7 +2,8 @@
  * Static Site Generator for CSUN English Graduate Program Website
  * Uses markdown-it for rendering markdown files with YAML front matter
  */
-const BASE_PATH = '/graduate-program';
+// Dynamically determine BASE_PATH for local and GitHub Pages support
+const BASE_PATH = (window.location.pathname.startsWith('/graduate-program')) ? '/graduate-program' : '';
 
 class StaticSiteGenerator {
     constructor() {
