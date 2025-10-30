@@ -479,6 +479,7 @@ class StaticSiteGenerator {
                 let semesterId = frontMatter && frontMatter['semester-id'];
                 let semesterData = semesterId ? future2[semesterId] : null;
                 // Fallback to first key if not found
+                console.log("Falling back to first semester data");
                 if (!semesterData) {
                     semesterData = future2[Object.keys(future2)[0]];
                 }
