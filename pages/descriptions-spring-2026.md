@@ -31,7 +31,7 @@ This class will explore definitions, performances, and uses of postmodernism in 
 
 ### ENGL 604: Seminar in Language and Linguistics -- Kleinman
 
-This seminar will examine the history of English literature from the Middle Ages to the modern period from the perspective of language. By focusing on how language shapes literature (and vice versa), we will discover how the English language has changed over time, introduce basic theories of language structure and change, and develop a formal knowledge of grammar that is useful for the analysis and rhetorical use of English. More details about the course will be added soon...
+This seminar will examine the history of English literature from the Middle Ages to the modern period from the perspective of language. By focusing on how language shapes literature (and vice versa), we will discover how the English language has changed over time, introduce basic theories of language structure and change, and develop a formal knowledge of grammar that is useful for the analysis and rhetorical use of English. More details about the course will be added soon. **Note: This course will operate on a partial-asynchronous module designed for students who cannot make a 4:00 class. Class meetings will begin at 5:00 with the remaining hour conducted through asynchronous discussion on Discord througout the week.**
 
 ### ENGL 617 Studies in Shakespeare -- Bryson
 
