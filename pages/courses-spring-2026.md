@@ -24,6 +24,7 @@ Faculty-submitted course descriptions can be found [here](/graduate-program/cour
 
 More information will be added soon.
 
+<a id="ENGL507"></a>
 **ENGL 507 - Introduction to Graduate Studies** is a course all students are required to take in their first or second semester. Any section of this course serves students in all three options: Creative Writing, Literature, and Rhetoric & Composition. <span class="text-danger">A permission number is required to add this class. Contact Frank de la Santo (frank.delasanto@csun.edu), our Graduate Support Coordinator, to request a permission number.</span>
 
 **ENGL 512 - Writing for Performance** is a Creative Writing seminar. For Creative Writing students, it can fulfil a graduate-level Literature seminar requirement, an Elective, or the Cultural or Textual Studies requirement. For Literature and Rhetoric & Composition students, it can fulfil the Cultural or Textual Studies requirement or an Elective.
@@ -38,6 +39,7 @@ More information will be added soon.
 
 **ENGL 654 - Advanced Rhetoric and Composition** is a Rhetoric & Composition seminar. For Rhetoric & Composition students, it can fulfil a graduate-level Rhetoric & Composition seminar requirement, the Cultural or Textual Studies requirement, or an Elective. For Literature and Creative Writing Students, it can fulfil the Cultural or Textual Studies requirement or an Elective.
 
+<a id="ENGL689D"></a>
 **ENGL 698D - Graduate Project** is the culminating experience. All Creative Writing and Rhetoric & Composition students must take this course, preferably in their final two semesters. Literature student generally also take this course, but they have the option of enrolling in ENGL 697C, which is a Comprehensive Exam. <span class="text-danger">A permission number is required to add this class. Contact Frank de la Santo (frank.delasanto@csun.edu), our Graduate Support Coordinator, to request a permission number. The course can only be taken in the final two semesters.</span>
 
 **LING 510 - Foundational Concepts in Linguistics** is a graduate-level linguistics course. It can fulfil the Seminar in the Study of Language requirement or an Elective for all three options.
