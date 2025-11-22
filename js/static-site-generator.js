@@ -202,18 +202,38 @@ class StaticSiteGenerator {
         // Start the router with hash link handling disabled
         page.start({ hashbang: false, click: true, dispatch: true });
 
+        // Handle browser hashchanges (back/forward/updating address bar) by attempting to scroll to the target
+        window.addEventListener('hashchange', () => this.scrollToHashIfPresent());
+
         // Manually handle hash links (anchor links) on the same page
         document.addEventListener('click', (e) => {
             const target = e.target.closest('a');
             if (!target) return;
 
             const href = target.getAttribute('href');
-            // If it's a hash link (starts with #), don't let Page.js handle it
-            if (href && href.startsWith('#')) {
-                e.stopPropagation(); // Prevent Page.js from handling it
-                const element = document.getElementById(href.substring(1));
-                if (element) {
-                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // If it's a hash link (starts with #), or it's a same-page link that includes a hash,
+            // prevent Page.js from handling it and scroll to the anchor instead.
+            if (href && href.includes('#')) {
+                // Use URL to resolve relative links properly
+                let pathPart = '';
+                let hashPart = '';
+                try {
+                    const resolved = new URL(href, window.location.href);
+                    pathPart = resolved.pathname;
+                    hashPart = resolved.hash ? resolved.hash.substring(1) : '';
+                } catch (e) {
+                    // Fallback to simple split if URL parsing fails
+                    [pathPart, hashPart] = href.split('#');
+                }
+                const currentPath = window.location.pathname;
+
+                // Accept pathPart that matches current path, or empty path (pure hash)
+                if (!hashPart) { hashPart = ''; }
+                if (!pathPart || pathPart === currentPath) {
+                    e.stopPropagation(); // Prevent Page.js from handling it
+                    // Update the location.hash so history/back/forward matches the link
+                    try { window.history.pushState({}, '', (pathPart ? pathPart : '') + (hashPart ? ('#' + hashPart) : '')); } catch (e) { window.location.hash = '#' + hashPart; }
+                    this.scrollToHashIfPresent();
                 }
             }
         }, true); // Use capture phase to intercept before Page.js
@@ -435,8 +455,7 @@ class StaticSiteGenerator {
      * @param {string} pageName - Current page name
      * @param {Object} frontMatter - Page front matter
      */
-    reinitializeComponents(pageName, frontMatter) {
-        // Accept a third argument: isPageChange
+    reinitializeComponents(pageName, frontMatter, isPageChange = true) {
         setTimeout(() => {
             const layout = frontMatter.layout || 'default';
 
@@ -458,8 +477,10 @@ class StaticSiteGenerator {
                 this.initializeCourseTable(frontMatter);
             }
 
-            // Only scroll to top if this is a real page change (not a hash navigation)
-            if (arguments.length < 3 || arguments[2]) {
+            // If a hash is present, prefer scrolling to that anchor; else, if this is a page change, scroll to top
+            if (window.location.hash) {
+                this.scrollToHashIfPresent();
+            } else if (isPageChange) {
                 window.scrollTo(0, 0);
             }
         }, 100);
@@ -528,6 +549,54 @@ class StaticSiteGenerator {
                 document.documentElement.scrollTop = 0;
             });
         }
+    }
+
+    /**
+     * Scroll to an anchor if a hash is present in the URL.
+     * This will attempt multiple times to find the element (useful if the content is still rendering)
+     * @param {number} retries - How many times to retry before giving up
+     * @param {number} delay - Delay between retries (ms)
+     */
+    scrollToHashIfPresent(retries = 5, delay = 50) {
+        const hash = window.location.hash;
+        if (!hash) return;
+
+        const tryScroll = (attemptsLeft) => {
+            const id = decodeURIComponent(hash.substring(1));
+            let el = document.getElementById(id);
+            if (!el) {
+                // Also try legacy name attribute
+                el = document.querySelector(`[name="${CSS.escape ? CSS.escape(id) : id}"]`);
+            }
+
+            if (el) {
+                // If there is a fixed navbar, adjust scroll position so the heading isn't hidden
+                let offset = 0;
+                const navbar = document.querySelector('.navbar, .fixed-top');
+                if (navbar) {
+                    try {
+                        offset = navbar.getBoundingClientRect().height;
+                    } catch (e) {
+                        offset = 0;
+                    }
+                }
+
+                const rect = el.getBoundingClientRect();
+                const absoluteTop = rect.top + window.pageYOffset;
+                window.scrollTo({ top: Math.max(absoluteTop - offset - 8, 0), behavior: 'smooth' });
+
+                // Ensure element can receive focus for accessibility, but don't keep tabindex if previously not present
+                const hadTabindex = el.hasAttribute('tabindex');
+                if (!hadTabindex) el.setAttribute('tabindex', '-1');
+                try { el.focus({ preventScroll: true }); } catch (e) { /* ignore */ }
+                if (!hadTabindex) el.removeAttribute('tabindex');
+            } else if (attemptsLeft > 0) {
+                // Try again in a little bit (content may still be parsing/rendering)
+                setTimeout(() => tryScroll(attemptsLeft - 1), delay);
+            }
+        };
+
+        tryScroll(retries);
     }
 }
 
