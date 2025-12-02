@@ -84,7 +84,7 @@ const future = [
             "time": "Wednesday, 4:00-06:45",
             "instructor": "Krystal Jo Howard"
           },
-          { 
+          {
             "name": "ENGL 525GS - Graphic Self",
             "time": "Monday, 4:00-06:45",
             "instructor": "Charles Hatfield"
@@ -94,7 +94,7 @@ const future = [
             "time": "Wednesday, 7:00-9:45",
             "instructor": "Christopher Higgs"
           },
-          { 
+          {
             "name": "ENGL 609 - Seminar Poetry Writing",
             "time": "Tuesday, 4:00-06:45",
             "instructor": "Leilani Hall"
@@ -103,7 +103,7 @@ const future = [
             "name": "ENGL 630WWT - Walt Whitman and Transcendentalism",
             "time": "Tuesday, 4:00-06:45",
             "instructor": "Anthony Dawahare"
-          }, 
+          },
           {
             "name": "ENGL 638 - Critical Approaches to Literature",
             "time": "Thursday, 4:00-06:45",
@@ -113,7 +113,7 @@ const future = [
             "name": "ENGL 652 - Creative Writing Studies",
             "time": "Wednesday, 7:00-9:45",
             "instructor": "Staff"
-          } 
+          }
         ]
   },
   {
@@ -187,13 +187,13 @@ const future2 = {
           {
             "name": "ENGL 507 - Graduate Research and Writing",
             "day": "Wednesday",
-            "time": "Wednesday, 7:00-9:45",
+            "time": "7:00-9:45",
             "instructor": "JC Lee"
           },
           {
             "name": "ENGL 512 - Writing for Performance",
             "day": "Tuesday",
-            "time": "Tuesday, 4:00-06:45",
+            "time": "4:00-06:45",
             "instructor": "Rick Mitchell"
           },
           {
@@ -273,7 +273,7 @@ const future2 = {
             	"time": "4:00-06:45",
             	"instructor": "Krystal Jo Howard"
             },
-            { 
+            {
             	"name": "ENGL 525GS: Graphic Self",
             	"day": "Monday",
             	"time": "4:00-06:45",
@@ -285,7 +285,7 @@ const future2 = {
             	"time": "7:00-9:45",
             	"instructor": "Christopher Higgs"
             },
-            { 
+            {
             	"name": "ENGL 609: Seminar Poetry Writing",
             	"day": "Tuesday",
             	"time": "4:00-06:45",
@@ -296,7 +296,7 @@ const future2 = {
             	"day": "Tuesday",
             	"time": "4:00-06:45",
             	"instructor": "Anthony Dawahare"
-            }, 
+            },
             {
             	"name": "ENGL 638: Critical Approaches to Literature",
             	"day": "Thursday",
@@ -308,7 +308,7 @@ const future2 = {
             	"day": "Wednesday",
             	"time": "7:00-9:45",
             	"instructor": "Staff"
-            } 
+            }
         ]
     },
     "S25": {
