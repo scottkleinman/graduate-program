@@ -2,7 +2,7 @@
 const canvasLink = "https://canvas.csun.edu/courses/85027/modules/419949"
 
 // Link to My Website
-const gradsite = "https://scottkleinman.com/graduate-program/"
+const gradsite = "https://scottkleinman.github.io/graduate-program/"
 
 // Future Offerings
 const future = [
