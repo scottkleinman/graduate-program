@@ -10,6 +10,8 @@ nav_id: "prospectiveStudents"
 
 The CSUN English Department's MA program has three options: Creative Writing, Literature, and Rhetoric & Composition. Regardless of which option you choose, the official degree you receive will be an MA in English. For further details about the program, see the [About page](/graduate-program/about).
 
+**Note: CSUN offers an MA in English with an emphasis in Creative Writing, but not an MFA in Creative Writing.**
+
 ## How to Apply
 
 ### Deadlines
