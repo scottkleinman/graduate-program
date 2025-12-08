@@ -176,6 +176,7 @@ class StaticSiteGenerator {
     page(`${BASE_PATH}/prospective-students`, () => this.loadPage('prospective-students'));
     page(`${BASE_PATH}/new-students`, () => this.loadPage('new-students'));
     // Course routes
+    page(`${BASE_PATH}/courses/fall-2026`, () => this.loadPage('courses-fall-2026'));
     page(`${BASE_PATH}/courses/spring-2026`, () => this.loadPage('courses-spring-2026'));
     page(`${BASE_PATH}/courses/descriptions-spring-2026`, () => this.loadPage('descriptions-spring-2026'));
     page(`${BASE_PATH}/courses/fall-2025`, () => this.loadPage('courses-fall-2025'));
