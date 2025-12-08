@@ -2,8 +2,8 @@
 title: "Spring 2026 Course Offerings - CSUN English Graduate Program"
 layout: "course"
 nav_id: "courses"
-semester: "Spring 2026"
-semester-id: "S26"
+semester: "Fall 2026"
+semester-id: "F26"
 ---
 
 # Fall 2026 Course Offerings
