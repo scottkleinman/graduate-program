@@ -178,9 +178,73 @@ const future = [
   }
 ]
 
-
 // Version 2
 const future2 = {
+    "F26": {
+        "label": "Fall 2026",
+        "courses": [
+          {
+            "name": "ENGL 507 - Graduate Research and Writing",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Charles Hatfield"
+          },
+          {
+            "name": "ENGL 507 - Graduate Research and Writing",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Staff"
+          },
+          {
+            "name": "ENGL 513 - Graduate Research and Writing",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Irene Clark"
+          },
+          {
+            "name": "ENGL 525 - TBD",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Danielle Spratt"
+          },
+          {
+            "name": "ENGL 525 [or 623] - Victorian Literature",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Lauren Byler"
+          },
+          {
+            "name": "ENGL 595 - US Proletarian Literature",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Anthony Dawahare"
+          },
+          {
+            "name": "ENGL 608 - Seminar in Narrative Writing",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Staff"
+          },
+          {
+            "name": "ENGL 609 - Seminar in Poetry Writing",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Leilani Hall"
+          },
+          {
+            "name": "ENGL 638 - Critical Approaches to Literature",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Mauro Carassai"
+          },
+          {
+            "name": "ENGL 652 - Creative Writing Theory",
+            "day": "TBD",
+            "time": "TBD",
+            "instructor": "Staff"
+          },
+        ]
+    },
     "S26": {
         "label": "Spring 2026",
       "courses": [
