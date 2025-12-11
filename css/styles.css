@@ -160,6 +160,7 @@ a {
     text-decoration: none;
     transition: all 0.2s ease;
     border-bottom: 1px solid transparent;
+    cursor: pointer;
 }
 
 a:hover {

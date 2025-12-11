@@ -14,6 +14,13 @@ class StaticSiteGenerator {
             typographer: true
         });
 
+        // Register markdown-it-admon plugin if available
+        if (window.markdownitAdmon) {
+            this.md.use(window.markdownitAdmon);
+        } else {
+            console.warn('markdown-it-admon plugin not found');
+        }
+
         // Add custom rule to parse {attribute} syntax for links
         this.md.core.ruler.after('inline', 'link_attributes', (state) => {
             const tokens = state.tokens;
