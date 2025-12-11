@@ -14,6 +14,15 @@ semester-id: "S26"
 
 <div id="course-schedule-table"></div>
 
+## Class Caps & Waitlisting
+
+All graduate courses currently have enrollment caps set at **14** students. On **December 12**, these caps will increase to **20** as non-restrictive registration begins.
+
+If a course you’d like to take is currently full, be sure to **add yourself to the waitlist**. Students in positions 1–6 on a waitlist will be automatically enrolled once the cap is raised.
+
+### Helpful Student Resources
+For guidance on registration, using permission numbers, and how to waitlist for classes, visit: [https://www.csun.edu/current-students](https://www.csun.edu/current-students)
+
 ## Course Descriptions
 
 Faculty-submitted course descriptions can be found [here](/graduate-program/courses/descriptions-spring-2026).
@@ -29,6 +38,8 @@ More information will be added soon.
 **ENGL 512 - Writing for Performance** is a Creative Writing seminar. For Creative Writing students, it can fulfil a graduate-level Literature seminar requirement, an Elective, or the Cultural or Textual Studies requirement. For Literature and Rhetoric & Composition students, it can fulfil the Cultural or Textual Studies requirement or an Elective.
 
 **ENGL 525PB - Picture Book Theory** is a literature seminar. For Literature students, it can fulfil a graduate-level Literature seminar requirement, an Elective, or the Cultural or Textual Studies requirement. For Creative Writing and Rhetoric & Composition students, it can fulfil the Cultural or Textual Studies requirement or an Elective.
+
+**ENGL 525PF - Postmodernism and Film** is a literature seminar. For Literature students, it can fulfil a graduate-level Literature seminar requirement, an Elective, or the Cultural or Textual Studies requirement. For Creative Writing and Rhetoric & Composition students, it can fulfil the Cultural or Textual Studies requirement or an Elective.
 
 **ENGL 604 - Seminar in Language and Linguistics** fulfils the Seminar in the Study of Language requirement, the Cultural or Textual Studies requirement, or an Elective for all three options.
 
