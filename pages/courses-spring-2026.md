@@ -8,13 +8,18 @@ semester-id: "S26"
 
 # Spring 2026 Course Offerings
 
-## Preliminary Schedule of Graduate Classes
+## <a id="schedule-of-classes" href="#schedule-of-classes">¶</a> Schedule of Graduate Classes
 
 *Offerings are projected but not guaranteed. This schedule is subject to change.*
 
 <div id="course-schedule-table"></div>
 
-## Class Caps & Waitlisting
+<div class="admonition warning">
+    <p class="admonition-title">Important!</p>
+    <p class="text-danger"><em>Before enrolling in ENGL 698D, check whether you are eligible based on the criteria discussed <a href="#ENGL698D">here</a>.</em></em></p>
+</div>
+
+## <a id="class-caps" href="#class-caps">¶</a> Class Caps & Waitlisting
 
 All graduate courses currently have enrollment caps set at **14** students. On **December 12**, these caps will increase to **20** as non-restrictive registration begins.
 
@@ -23,15 +28,13 @@ If a course you’d like to take is currently full, be sure to **add yourself to
 ### Helpful Student Resources
 For guidance on registration, using permission numbers, and how to waitlist for classes, visit: [https://www.csun.edu/current-students](https://www.csun.edu/current-students)
 
-## Course Descriptions
+## <a id="course-descriptions" href="#course-descriptions">¶</a> Course Descriptions
 
 Faculty-submitted course descriptions can be found [here](/graduate-program/courses/descriptions-spring-2026).
 
 ---
 
-## Explanation of Requirements Spring 2026 Graduate Classes Fulfill
-
-More information will be added soon.
+## <a id="explanation-of-requirements" href="#explanation-of-requirements">¶</a> Explanation of Requirements Spring 2026 Graduate Classes Fulfill
 
 <a id="ENGL507"></a>**ENGL 507 - Introduction to Graduate Studies** is a course all students are required to take in their first or second semester. Any section of this course serves students in all three options: Creative Writing, Literature, and Rhetoric & Composition. <span class="text-danger">A permission number is required to add this class. Contact Frank de la Santo (frank.delasanto@csun.edu), our Graduate Support Coordinator, to request a permission number.</span>
 
@@ -49,13 +52,13 @@ More information will be added soon.
 
 **ENGL 654 - Advanced Rhetoric and Composition** is a Rhetoric & Composition seminar. For Rhetoric & Composition students, it can fulfil a graduate-level Rhetoric & Composition seminar requirement, the Cultural or Textual Studies requirement, or an Elective. For Literature and Creative Writing Students, it can fulfil the Cultural or Textual Studies requirement or an Elective.
 
-<a id="ENGL698D"></a>**ENGL 698D - Graduate Project** is the culminating experience. All Creative Writing and Rhetoric & Composition students must take this course, preferably in their final two semesters. Literature student generally also take this course, but they have the option of enrolling in ENGL 697C, which is a Comprehensive Exam. <span class="text-danger">A permission number is required to add this class. Contact Frank de la Santo (frank.delasanto@csun.edu), our Graduate Support Coordinator, to request a permission number. The course can only be taken in the final two semesters after you have completed two graduate courses in your option. See <a href="https://scottkleinman.github.io/graduate-program/about#culminating-experience">About the Culminating Experience</a>.</span>
+<a id="ENGL698D"></a>**ENGL 698D - Graduate Project** is the culminating experience. All Creative Writing and Rhetoric & Composition students must take this course, preferably in their final two semesters. Literature student generally also take this course, but they have the option of enrolling in ENGL 697C, which is a Comprehensive Exam. <span class="text-danger">A permission number is required to add this class. Contact Frank de la Santo (frank.delasanto@csun.edu), our Graduate Support Coordinator, to request a permission number. The course can only be taken in the final two semesters after you have completed two graduate courses in your option. In order to enrol, you must be taking ENGL 698D in your final two semesters **after** having completed two graduate-level seminars that count towards the student's option. One of these courses may be the theory course for their option (ENGL 638, ENGL 651, or ENGL 652). Please consult the Graduate Adviser or the Graduate Coordinator if you are unsure whether you are eligible to enroll in ENGL 698D. See <a href="https://scottkleinman.github.io/graduate-program/about#culminating-experience">About the Culminating Experience</a>.</span>
 
 **LING 510 - Foundational Concepts in Linguistics** is a graduate-level linguistics course. It can fulfil the Seminar in the Study of Language requirement or an Elective for all three options.
 
 ---
 
-## Suggestions and Reminders
+## <a id="suggestions-and-reminders" href="#suggestions-and-reminders">¶</a> Suggestions and Reminders
 
 **All classes listed above are on-campus classes. CSUN does not offer fully online courses at the graduate level.**
 
