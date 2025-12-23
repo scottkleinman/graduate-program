@@ -52,7 +52,7 @@ const future = [
           {
             "name": "ENGL 698D - Graduate Project",
             "time": "Monday, 7:00-9:45",
-            "instructor": "Staff"
+            "instructor": "Sean Pessin"
           },
           {
             "name": "ENGL 698D - Graduate Project",
@@ -300,7 +300,7 @@ const future2 = {
             "name": "ENGL 698D - Graduate Project",
             "day": "Monday",
             "time": "7:00-9:45",
-            "instructor": "Staff"
+            "instructor": "Sean Pessin"
           },
           {
             "name": "ENGL 698D - Graduate Project",
