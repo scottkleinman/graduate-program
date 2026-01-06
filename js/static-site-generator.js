@@ -183,6 +183,8 @@ class StaticSiteGenerator {
     page(`${BASE_PATH}/prospective-students`, () => this.loadPage('prospective-students'));
     page(`${BASE_PATH}/new-students`, () => this.loadPage('new-students'));
     // Course routes
+    page(`${BASE_PATH}/engl698D`, () => this.loadPage('engl698D'));
+
     page(`${BASE_PATH}/courses/fall-2026`, () => this.loadPage('courses-fall-2026'));
     page(`${BASE_PATH}/courses/spring-2026`, () => this.loadPage('courses-spring-2026'));
     page(`${BASE_PATH}/courses/descriptions-spring-2026`, () => this.loadPage('descriptions-spring-2026'));
@@ -196,6 +198,8 @@ class StaticSiteGenerator {
     page(`${BASE_PATH}/about.html`, () => page.redirect(`${BASE_PATH}/about`));
     page(`${BASE_PATH}/prospective-students.html`, () => page.redirect(`${BASE_PATH}/prospective-students`));
     page(`${BASE_PATH}/new-students.html`, () => page.redirect(`${BASE_PATH}/new-students`));
+
+    page(`${BASE_PATH}/engl698D.html`, () => page.redirect(`${BASE_PATH}/engl698D`));
 
     page(`${BASE_PATH}/grad-courses-spring-2026.html`, () => page.redirect(`${BASE_PATH}/courses/spring-2026`));
     page(`${BASE_PATH}/grad-courses-descriptions-spring-2026.html`, () => page.redirect(`${BASE_PATH}/courses/spring-2026`));
