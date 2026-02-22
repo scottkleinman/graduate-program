@@ -185,63 +185,63 @@ const future2 = {
         "courses": [
           {
             "name": "ENGL 507 - Graduate Research and Writing",
-            "day": "TBD",
-            "time": "TBD",
+            "day": "Monday",
+            "time": "4:00-6:45",
             "instructor": "Charles Hatfield"
           },
           {
             "name": "ENGL 507 - Graduate Research and Writing",
-            "day": "TBD",
-            "time": "TBD",
-            "instructor": "Staff"
+            "day": "Thursday",
+            "time": "7:00-9:45",
+            "instructor": "JC Lee"
           },
           {
             "name": "ENGL 513 - Graduate Research and Writing",
-            "day": "TBD",
-            "time": "TBD",
+            "day": "Tuesday",
+            "time": "4:00-6:45",
             "instructor": "Irene Clark"
           },
           {
-            "name": "ENGL 525 - TBD",
-            "day": "TBD",
-            "time": "TBD",
-            "instructor": "Danielle Spratt"
-          },
-          {
-            "name": "ENGL 525 [or 623] - Victorian Literature",
-            "day": "TBD",
-            "time": "TBD",
-            "instructor": "Lauren Byler"
-          },
-          {
-            "name": "ENGL 595 - US Proletarian Literature",
-            "day": "TBD",
-            "time": "TBD",
+            "name": "ENGL 525PH - US Proletarian Literature",
+            "day": "Wednesday",
+            "time": "7:00-9:45",
             "instructor": "Anthony Dawahare"
           },
           {
+            "name": "ENGL 525PSM - POP Poets Divas Icon",
+            "day": "Monday",
+            "time": "7:00-9:45",
+            "instructor": "Danielle Spratt"
+          },
+          {
             "name": "ENGL 608 - Seminar in Narrative Writing",
-            "day": "TBD",
-            "time": "TBD",
+            "day": "Wednesday",
+            "time": "4:00-6:45",
             "instructor": "Staff"
           },
           {
             "name": "ENGL 609 - Seminar in Poetry Writing",
-            "day": "TBD",
-            "time": "TBD",
+            "day": "Tuesday",
+            "time": "4:00-6:45",
             "instructor": "Leilani Hall"
           },
           {
+            "name": "ENGL 623 - Seminar in Prose Fiction",
+            "day": "Thursday",
+            "time": "4:00-6:45",
+            "instructor": "Lauren Byler"
+          },
+          {
             "name": "ENGL 638 - Critical Approaches to Literature",
-            "day": "TBD",
-            "time": "TBD",
-            "instructor": "Mauro Carassai"
+            "day": "Thursday",
+            "time": "4:00-6:45",
+            "instructor": "Staff"
           },
           {
             "name": "ENGL 652 - Creative Writing Theory",
-            "day": "TBD",
-            "time": "TBD",
-            "instructor": "Staff"
+            "day": "Tuesday",
+            "time": "7:00-9:45",
+            "instructor": "Christopher Higgs"
           },
         ]
     },
