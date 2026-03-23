@@ -235,7 +235,7 @@ const future2 = {
             "name": "ENGL 638 - Critical Approaches to Literature",
             "day": "Thursday",
             "time": "4:00-6:45",
-            "instructor": "Staff"
+            "instructor": "Mauro Carassai"
           },
           {
             "name": "ENGL 652 - Creative Writing Theory",
