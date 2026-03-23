@@ -8,7 +8,7 @@ semester-id: "F26"
 
 # Fall 2026 Course Offerings
 
-## Preliminary Schedule of Graduate Classes
+## Schedule of Graduate Classes
 
 *Offerings are projected but not guaranteed. This schedule may be subject to change.*
 
