@@ -10,7 +10,7 @@ semester-id: "F26"
 
 ## Preliminary Schedule of Graduate Classes
 
-*Offerings are projected but not guaranteed. This schedule is likely to change.*
+*Offerings are projected but not guaranteed. This schedule may be subject to change.*
 
 <div id="course-schedule-table"></div>
 
