@@ -208,7 +208,7 @@ const future2 = {
             "instructor": "Anthony Dawahare"
           },
           {
-            "name": "ENGL 525PSM - POP Poets Divas Icon",
+            "name": "ENGL 525PDI - Pop Poets, Stage Divas, and Novel Icons",
             "day": "Monday",
             "time": "7:00-9:45",
             "instructor": "Danielle Spratt"
