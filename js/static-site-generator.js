@@ -193,6 +193,7 @@ class StaticSiteGenerator {
 
     page(`${BASE_PATH}/courses/spring-2025`, () => this.loadPage('courses-spring-2025'));
     page(`${BASE_PATH}/courses/descriptions-spring-2025`, () => this.loadPage('descriptions-spring-2025'));
+    page(`${BASE_PATH}/courses/descriptions-fall-2026`, () => this.loadPage('descriptions-fall-2026'));
 
     // Legacy redirects for backwards compatibility
     page(`${BASE_PATH}/about.html`, () => page.redirect(`${BASE_PATH}/about`));
@@ -207,6 +208,7 @@ class StaticSiteGenerator {
     page(`${BASE_PATH}/grad-courses-descriptions-fall-2025.html`, () => page.redirect(`${BASE_PATH}/courses/descriptions-fall-2025`));
     page(`${BASE_PATH}/grad-courses-spring-2025.html`, () => page.redirect(`${BASE_PATH}/courses/spring-2025`));
     page(`${BASE_PATH}/grad-courses-descriptions-spring-2025.html`, () => page.redirect(`${BASE_PATH}/courses/descriptions-spring-2025`));
+    page(`${BASE_PATH}/grad-courses-descriptions-fall-2026.html`, () => page.redirect(`${BASE_PATH}/courses/descriptions-fall-2026`));
 
         // Catch-all for 404s
         page('*', () => this.showErrorPage());
