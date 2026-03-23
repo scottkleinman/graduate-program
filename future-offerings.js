@@ -184,13 +184,13 @@ const future2 = {
         "label": "Fall 2026",
         "courses": [
           {
-            "name": "ENGL 507 - Graduate Research and Writing",
+            "name": "ENGL 507 - Introduction to Graduate Studies",
             "day": "Monday",
             "time": "4:00-6:45",
             "instructor": "Charles Hatfield"
           },
           {
-            "name": "ENGL 507 - Graduate Research and Writing",
+            "name": "ENGL 507 - Introduction to Graduate Studies",
             "day": "Thursday",
             "time": "7:00-9:45",
             "instructor": "JC Lee"
@@ -249,7 +249,7 @@ const future2 = {
         "label": "Spring 2026",
       "courses": [
           {
-            "name": "ENGL 507 - Graduate Research and Writing",
+            "name": "ENGL 507 - Introduction to Graduate Studies",
             "day": "Wednesday",
             "time": "7:00-9:45",
             "instructor": "JC Lee"
