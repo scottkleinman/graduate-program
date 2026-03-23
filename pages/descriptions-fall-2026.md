@@ -54,9 +54,11 @@ No description yet.
 
 ---
 
-### ENGL 623: Seminar in Prose Fiction -- Byler
+### ENGL 623: Mystery! Nineteenth-Century Narratives of Detection, Death, and Denial -- Byler
 
-No description yet.
+This class will focus on mystery and detective fiction by Wilkie Collins, Charles Dickens, and Arthur Conan Doyle. We will study the conventions and social impacts of these genres and their investigations of violence, justice, sensationalism, gender, sexuality, race, class, and imperialism.
+
+A centerpiece of the class will be Dickens’s unfinished final novel, *The Mystery of Edwin Drood* (1870), which Dickens died before completing. The absence of any definitive evidence about the way Dickens intended to conclude this mystery has generated dozens of sequels and continuations, including a 1985 Tony Award-winning musical that allows its audience to vote on the way the story ends. We will explore some of these spin-offs that are part of the Harry Stone Collection Archive of Dickens materials at the CSUN Library, along with other items in this collection, including first edition novels, Dickens tchotchkes, and creepy dolls. Students in the class will have the opportunity to contribute critical and creative work to the 2028-2029 CSUN Library Exhibition of materials from the Stone Collection.
 
 ---
 
