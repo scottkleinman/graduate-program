@@ -26,7 +26,7 @@ No description yet.
 
 ### ENGL 513: Introduction to Graduate Studies -- Clark, I
 
-No description yet.
+English 513 is concerned with the many fascinating topics that are addressed in the field of Writing Studies, and their application to college-level writing instruction. Some of the concepts addressed in this course include genre, process, invention, revision, argument, critical thinking, language difference, agency/authorship, student identity, assessment and reflection. A key component of this course is the idea of connection: connection between composition theory and pedagogical practice, connection between writing and reading, connection between print and new media texts, and connection among students in the class. If you are interested in teaching, either at the high school or college level, this course will be very helpful for you.
 
 ---
 
