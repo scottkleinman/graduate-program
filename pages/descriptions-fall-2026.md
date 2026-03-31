@@ -11,7 +11,9 @@ semester: "Fall 2026 Course Descriptions"
 
 # CSUN MA in English — Fall 2026 Course Descriptions
 
-Below are course descriptions submitted by instructors for Fall 2026 graduate courses and certain 400-level English classes likely to be of interest to grad students. More descriptions/flyers will be added as they are received by the Graduate Adviser.
+Below are course descriptions submitted by instructors for Fall 2026 graduate courses and certain 400-level English classes likely to be of interest to grad students. More descriptions will be added as they are received by the Graduate Adviser.
+
+Note that course titles here may differ from the catalogue descriptions; they are intended to give a better impression of the course subject matter. Different sections of ENGL525 will generally fulfil the same requirements, regardless of the letter suffixes.
 
 ### ENGL 507: Introduction to Graduate Studies -- Hatfield
 No description yet.
@@ -36,9 +38,9 @@ This course will consider the history of popular media culture through the lens 
 
 ---
 
-### ENGL 525PH: Proletarian Literature -- Dawahare
+### ENGL 525PH: The Principle of Hope in Modern U.S. Literatures of Social Protest -- Dawahare
 
-No description yet.
+We will study a significant body of U.S. literature that depicts the struggles and hopes of socially marginalized and oppressed people in the U.S. We will explore its depictions of class, race, and gender-based suffering, but, equally, the ways in which it is forward-looking, locating hope in crisis and even imagining a society without the injuries suffered from social injustices. Several of these texts depict characters who are “strong with the not yet in the now,” as Tillie Olsen writes in one of her stories. We will address the literary strategies writers employed to depict hope amidst suffering, including their borrowings from contemporaneous literary genres and movements, such as utopian literature, realism, modernism, the Harlem Renaissance, and the Depression-era Proletarian Literary Movement. Authors include Walt Whitman, Edward Bellamy, Upton Sinclair, W.E.B. Du Bois, Muriel Rukeyser, Langston Hughes, Tillie Olsen, Mary Heaton Vorse, James Agee, and Richard Wright.
 
 ---
 
