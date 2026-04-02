@@ -66,7 +66,7 @@ A centerpiece of the class will be Dickens’s unfinished final novel, *The Myst
 
 ### ENGL 638: Critical Approaches to Literature -- Carassai
 
-No description yet.
+ENGL 638 – Reading Through Digital Complexity exposes students to advanced forms of interdisciplinary literary criticism. Rather than based on standardized methodologies,  interdisciplinary research in literary studies is increasingly becoming a habit of mind worth cultivating in humanities research carried on in the 21st century. Over the course of the semester, students will become familiar with combining multiple academic disciplines and different  schools of thought as encouraged by digital textuality. Through class discussions and assignments students will (a) recognize the constraints of disciplinary boundaries in the  application of literary theory and (b) proactively create disciplinary connections and integrate different perspectives to adequately address digital/digitized literary texts. Work in the class will be guided by two main approaches: literary criticism as multi-disciplinarity and literary criticism as trans-disciplinarity. To explore these two research models, we are going to focus on the transformative impact brought by digital technologies on the traditional discipline of English and literary studies at large. This course will guide students through the exploration of born-digital “Electronic Literature” as an object of analysis that requires multi-disciplinary approaches and of current practices in “Digital Humanities” as a representative example of a research methodology based on trans-disciplinary approaches.
 
 ---
 
