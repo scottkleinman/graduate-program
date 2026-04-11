@@ -52,7 +52,11 @@ No description yet.
 
 ### ENGL 609: Seminar in Poetry Writing -- Hall
 
-No description yet.
+Charles Simic reminds us that the poem is “a kind of magnet for complex historical, literary and psychological forces.” This semester, as we focus on your poetry against the backdrop of the assigned course texts, you will learn to examine the forces at work on poems, down to layers of meaning in each word. Additionally, we will consider various choices and effects typical of the poetic process, such as titles, beginnings, metaphor, imagery, form, line breaks, syntax, closure, etc., so that we may learn more about the effects of our current (and potential!) choices on our poems and our readers. In this advanced-read workshop (i.e. no cold readings), we will practice both close reading, as well as make connections to literary and theoretical texts outside of your work. Based on the work you produce, I will offer specific techniques to support that work.
+
+Along the way, you will keep track of your practice in a craft reflection journal, culminating in a craft essay that will preface your portfolio of 8-10 poems. The reading list includes poetry by Franny Choi, John Gallaher, Ama Codjoe, Sara Rivera, and CSUN alum I.S. Jones, among others, as well as craft theory by Douglas Kearney, Gregory Orr, Li Young Lee, Lyn Hejinian, Jane Hirschfield, and Harryette Mullen, among others. Our meetings will usually rely on the full-class workshop, although we may shift to small groups in the last 2-3 weeks of the semester. Do expect to meet with me one-on-one to discuss your poetry outside of class. I look forward to working with you.
+
+Questions? Contact leilani.hall@csun.edu.
 
 ---
 
