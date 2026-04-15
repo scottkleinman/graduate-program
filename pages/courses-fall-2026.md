@@ -12,11 +12,13 @@ semester-id: "F26"
 
 *Offerings are projected but not guaranteed. This schedule may be subject to change.*
 
+Faculty-submitted course descriptions can be found [here](/graduate-program/courses/descriptions-fall-2026).
+
 <div id="course-schedule-table"></div>
 
-## Course Descriptions
+## 400-Level Courses of Interest
 
-Faculty-submitted course descriptions can be found [here](/graduate-program/courses/descriptions-fall-2026).
+[DH 480: Digital Humanities Studies and Projects](/graduate-program/courses/descriptions-fall-2026/#DH490)
 
 ---
 
