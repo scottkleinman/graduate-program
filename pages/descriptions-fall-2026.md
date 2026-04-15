@@ -15,6 +15,8 @@ Below are course descriptions submitted by instructors for Fall 2026 graduate co
 
 Note that course titles here may differ from the catalogue descriptions; they are intended to give a better impression of the course subject matter. Different sections of ENGL525 will generally fulfil the same requirements, regardless of the letter suffixes.
 
+---
+
 <a id="DH480"></a><h3>DH 480: Digital Humanities Studies and Projects -- Kleinman</h3>
 
 Join a hands-on research course where you will work on two major Digital Humanities projects: The New Variorum Shakespeare Project and the Lexos a text analysis tool. The New Variorum Shakespeare project began in the nineteenth century with a bold goal: document every prior edition of Shakespeare’s plays while producing new editions. Since 2019, the project has expanded into digital publication, opening exciting new possibilities for how readers and scholars engage with Shakespeare. In DH 480, you will help shape that future.

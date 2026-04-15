@@ -18,7 +18,7 @@ Faculty-submitted course descriptions can be found [here](/graduate-program/cour
 
 ## 400-Level Courses of Interest
 
-[DH 480: Digital Humanities Studies and Projects](/graduate-program/courses/descriptions-fall-2026/#DH490)
+[DH 480: Digital Humanities Studies and Projects](/graduate-program/courses/descriptions-fall-2026#DH480)
 
 ---
 
