@@ -23,7 +23,7 @@ Students who have been accepted to the MA program and who wish to defer enrollme
 
 ## Course Schedules and Registration Requirements
 
-Graduate courses meet once per week and are held at either 4:00-6:45 p.m. or 7:00-9:45 p.m., Monday through Thursday. **Note that it is almost impossible to complete the degree in two years without taking a single 4:00 class. No graduate-level courses are offered online.**
+Graduate courses meet once per week and are held at either 4:00-6:45 p.m. or 7:00-9:45 p.m., Monday through Thursday.
 
 !!! note
 
