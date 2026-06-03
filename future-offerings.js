@@ -227,7 +227,7 @@ const future2 = {
           },
           {
             "name": "ENGL 623 - Seminar in Prose Fiction",
-            "day": "Thursday",
+            "day": "Wednesday",
             "time": "4:00-6:45",
             "instructor": "Lauren Byler"
           },
