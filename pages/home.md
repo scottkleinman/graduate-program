@@ -10,4 +10,8 @@ General information about the program is available on the [About page](/graduate
 
 For information on upcoming courses, click "Course Offerings" in the menu above.
 
-**Advising:** If you have questions, please feel free to email me at [scott.kleinman@csun.edu](mailto:scott.kleinman@csun.edu). Note that many common questions can also be answered by our Graduate Coordinator, [Frank de la Santo](mailto:frank.delasanto@csun.edu), especially questions about administrative procedures.
+!!! note "Advising"
+
+    If you have questions, please feel free to email me at [scott.kleinman@csun.edu](mailto:scott.kleinman@csun.edu). Note that many common questions can also be answered by our Graduate Coordinator, [Frank de la Santo](mailto:frank.delasanto@csun.edu), especially questions about administrative procedures.
+
+    For summertime advising, please contact Frank de la Santo.
