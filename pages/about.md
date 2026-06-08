@@ -27,7 +27,7 @@ Graduate courses meet once per week and are held at either 4:00-6:45 p.m. or 7:0
 
 !!! note
 
-    It is almost impossible to complete the degree in two years without taking a single 4:00 class. No graduate-level courses are offered online.
+    It is almost impossible to complete the degree in two years without taking a single 4:00 class. **No graduate-level courses are offered online.**
 
 Students can take up to three 400-level classes to fulfill MA degree requirements. Certain qualifying 400-level courses may be held earlier in the day. A small number of qualifying 400-level courses will be held online during fall, spring, and summer sessions.
 
