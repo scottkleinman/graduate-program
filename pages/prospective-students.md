@@ -63,7 +63,13 @@ International applicants to CSUN’s English MA Program who received their bache
 - Pearson Test of English (PTE) Academic: 64
 - Global Test of English Communication Computer-Based Test (GTEC CBT): 1275
 
-**The English Department MA Program does not accept Duolingo scores.**
+!!! note
+
+    The English Department MA Program does not accept Duolingo scores.
+
+    The University system's acceptance of prior English-language instruction can be erratic. International students should be prepared to provide language proficiency scores even if the primary medium of their undergraduate degree is English.
+
+CSUN does not offer financial aid to international students. For available funding opportunities, see <a href="https://www.csun.edu/financialaid/special-groups/international-students" target="_blank">https://www.csun.edu/financialaid/special-groups/international-students</a>.
 
 ### Application Procedure
 
