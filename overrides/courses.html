@@ -1,0 +1,93 @@
+<!--
+  Copyright (c) 2025-2026 Zensical and contributors
+
+  SPDX-License-Identifier: MIT
+  Third-party contributions licensed under DCO
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+{% extends "base.html" %}
+
+<!-- Site title -->
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.semester }}{{ page.meta.title }} - {{ config.site_name }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.meta.semester }}{{ page.title | striptags }} - {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
+<!-- Content block -->
+{% block content %}
+  {% include "partials/courses_content.html" %}
+{% endblock %}
+
+<!-- Theme-related JavaScript -->
+{% block scripts %}
+  {# This includes the correct bundle.js and any config.extra_javascript #}
+  {{ super() }}
+
+  <script src="{{ 'js/schedules.js' | url }}"></script>
+  <script>
+  document$.subscribe(function() {
+    // 1. Target the courses for the given semester
+    let semesterId = "{{ page.meta.semesterId }}"
+    const courses = schedules[semesterId].courses
+
+    // 2. Map courses to <tr> rows
+    const rows = courses.map(course => `
+      <tr>
+        <td>${course.name}</td>
+        <td>${course.day}</td>
+        <td>${course.time}</td>
+        <td>${course.instructor}</td>
+      </tr>`).join('')
+
+    // 3. Construct the full table
+    const htmlTable = `
+    <table>
+      <thead>
+        <tr>
+          <th>Course Name</th>
+          <th>Day</th>
+          <th>Time</th>
+          <th>Instructor</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows}
+      </tbody>
+    </table>`
+
+    const target = document.getElementById("courses-table")
+    if (target) {
+        target.innerHTML = htmlTable
+    }
+  })
+  </script>
+
+  <!-- Custom JavaScript -->
+  {% for script in config.extra_javascript %}
+    {{ script | script_tag }}
+  {% endfor %}
+
+  {% endblock %}
