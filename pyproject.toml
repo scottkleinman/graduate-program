@@ -1,0 +1,9 @@
+[project]
+name = "graduate-program"
+version = "0.1.0"
+description = "Website of the MA Program at CSUN"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "zensical>=0.0.51",
+]
