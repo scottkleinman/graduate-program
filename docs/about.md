@@ -67,7 +67,7 @@ The option consists of 30 units, 15 units of core requirements and 15 units of o
 - Literature Option Requirements (15 units)
 - Two 500-600 level seminars, with an emphasis on literature (6 units)
 - Two electives (6 units): Any 400, 500, or 600 level ENGL course. Courses at the 400 level or above in other departments relevant to the student's research interests may be acceptable electives, but please check with the Graduate Adviser before enrolling in a course in another department.
-- Culminating experience (3 units): Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) (permission number required; can only be taken in the final two semesters after certain  [pre-requisites](../engl698D.md) have been completed).
+- Culminating experience (3 units): Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) \[permission number required; can only be taken in the final two semesters after certain  [pre-requisites](../engl698D.md) have been completed\].
 
 ## Creative Writing Option
 
@@ -85,7 +85,7 @@ The option consists of 30 units, 15 units of core requirements and 15 units of o
 
 - Two 500-600 level seminars, with an emphasis on creative writing (6 units)
 - Two electives (6 units): Any 400, 500, or 600 level ENGL course. Courses at the 400 level or above in other departments relevant to the student's research interests may be acceptable electives, but please check with the Graduate Adviser before enrolling in a course in another department.
-- Culminating experience (3 units): ENGL 698D (Capstone) [permission number required; can only be taken in the final two semesters after certain  [pre-requisites](../engl698D.md) have been completed.
+- Culminating experience (3 units): ENGL 698D (Capstone) \[permission number required; can only be taken in the final two semesters after certain  [pre-requisites](../engl698D.md) have been completed.\]
 
 !!! note
     Creative writing students must take two creative writing workshops in their primary genre (poetry, prose, or drama). Creative writing workshops can be taken to fulfill the following requirements above: Seminar in Genre Studies, Seminar in Cultural or Textual Studies, 500-600 level creative writing seminars, and electives.
@@ -108,7 +108,7 @@ The option consists of 30 units, 15 units of core requirements and 15 units of o
 
 - Two 500-600 level seminars, with an emphasis on rhetoric and composition (6 units)
 - Two electives (6 units): Any 400, 500, or 600 level ENGL course. Courses at the 400 level or above in other departments relevant to the student's research interests may be acceptable electives, but please check with the Graduate Adviser before enrolling in a course in another department.
-- Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) (permission number required; can only be taken in the final two semesters after certain  [pre-requisites](../engl698D.md) have been completed).
+- Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) (permission number required; can only be taken in the final two semesters after certain [pre-requisites](../engl698D.md) have been completed).
 
 ---
 
