@@ -27,10 +27,10 @@ const schedules = {
         instructor: 'Anthony Dawahare'
       },
       {
-        name: 'ENGL 525PDI - Pop Poets, Stage Divas, and Novel Icons',
+        name: 'ENGL 525CF',
         day: 'Monday',
         time: '7:00-9:45',
-        instructor: 'Danielle Spratt'
+        instructor: 'Jackie Stallcup'
       },
       {
         name: 'ENGL 608 - Seminar in Narrative Writing',
