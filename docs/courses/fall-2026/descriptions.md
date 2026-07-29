@@ -38,6 +38,12 @@ English 513 is concerned with the many fascinating topics that are addressed in 
 
 ---
 
+### ENGL 525CF: Childhood and the Fantastic -- Stallcup
+
+The fantastic — an umbrella term for fantasy, science fiction and everything in between — has often been constructed as a "lesser" literary form: as "popular" literature, and/or as "merely escapist." Children's literature is also often dismissed in similarly cavalier ways. Yet both forms enact a fascinating and complex variety of cultural tasks in their broad appeal to diverse audiences. Drawing from feminist and post-colonial criticism and from criticism of the fantastic, we will examine how childhood functions at the confluence of these two forms, focusing on fantasy and science fiction texts written for or about children. Among the issues we will consider are: standard generic conventions (and how we go about analyzing them), gender and genre, unconventional narrative structures, narrative treatments of technology and magic, and the ideological implications of secondary world creation.
+
+---
+
 ### ENGL 525PDI: Pop Poets, Stage Divas, and Novel Icons -- Spratt
 
 !!! warning "Important!"
