@@ -27,7 +27,7 @@ const schedules = {
         instructor: 'Anthony Dawahare'
       },
       {
-        name: 'ENGL 525CF',
+        name: 'ENGL 525CF - Childhood and the Fantastic',
         day: 'Monday',
         time: '7:00-9:45',
         instructor: 'Jackie Stallcup'
