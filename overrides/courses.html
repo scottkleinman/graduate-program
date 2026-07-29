@@ -46,43 +46,54 @@
   {# This includes the correct bundle.js and any config.extra_javascript #}
   {{ super() }}
 
-  <script src="{{ 'js/schedules.js' | url }}?v={{ range(1, 10000) | random }}"></script>
   <script>
   document$.subscribe(function() {
-    // 1. Target the courses for the given semester
-    let semesterId = "{{ page.meta.semesterId }}"
-    const courses = schedules[semesterId].courses
+    const semesterId = "{{ page.meta.semesterId }}";
+    const target = document.getElementById("courses-table");
 
-    // 2. Map courses to <tr> rows
-    const rows = courses.map(course => `
-      <tr>
-        <td>${course.name}</td>
-        <td>${course.day}</td>
-        <td>${course.time}</td>
-        <td>${course.instructor}</td>
-      </tr>`).join('')
+    if (!target) return; // Exit if we're not on a page that needs a table
 
-    // 3. Construct the full table
-    const htmlTable = `
-    <table>
-      <thead>
+    // 1. Create a fresh script tag with a timestamp to bypass cache
+    const script = document.createElement('script');
+    script.src = "{{ 'js/schedules.js' | url }}?v=" + Date.now();
+
+    // 2. Wait for the script to load BEFORE trying to use the 'schedules' object
+    script.onload = function() {
+      if (typeof schedules === 'undefined' || !schedules[semesterId]) {
+        target.innerHTML = "<p>Course schedule data not found.</p>";
+        return;
+      }
+
+      const courses = schedules[semesterId].courses;
+
+      // 3. Map courses to <tr> rows
+      const rows = courses.map(course => `
         <tr>
-          <th>Course Name</th>
-          <th>Day</th>
-          <th>Time</th>
-          <th>Instructor</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${rows}
-      </tbody>
-    </table>`
+          <td>${course.name}</td>
+          <td>${course.day}</td>
+          <td>${course.time}</td>
+          <td>${course.instructor}</td>
+        </tr>`).join('');
 
-    const target = document.getElementById("courses-table")
-    if (target) {
-        target.innerHTML = htmlTable
-    }
-  })
+      // 4. Update the table
+      target.innerHTML = `
+      <table>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Instructor</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows}
+        </tbody>
+      </table>`;
+    };
+
+    document.head.appendChild(script);
+  });
   </script>
 
   <!-- Custom JavaScript -->
