@@ -46,7 +46,7 @@
   {# This includes the correct bundle.js and any config.extra_javascript #}
   {{ super() }}
 
-  <script src="{{ 'js/schedules.js' | url }}"></script>
+  <script src="{{ 'js/schedules.js' | url }}?v={{ range(1, 10000) | random }}"></script>
   <script>
   document$.subscribe(function() {
     // 1. Target the courses for the given semester
