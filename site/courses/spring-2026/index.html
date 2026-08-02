@@ -883,7 +883,8 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <!--
+  <div id="courses-config" data-semester-id="S26" hidden></div>
+<!--
   Copyright (c) 2025-2026 Zensical and contributors
 
   SPDX-License-Identifier: MIT
@@ -1185,73 +1186,16 @@
       <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"../../assets/javascripts/workers/search.b6b7e04f.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
     
     
-  
-  
       <script src="../../assets/javascripts/bundle.d7f30b55.min.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
         <script src="../../js/tablesort.js"></script>
       
+        <script src="../../js/schedules.js"></script>
+      
+        <script src="../../js/courses-table.js"></script>
+      
     
-
-  <script>
-  document$.subscribe(function() {
-    const semesterId = "S26";
-    const target = document.getElementById("courses-table");
-
-    if (!target) return; // Exit if we're not on a page that needs a table
-
-    // 1. Create a fresh script tag with a timestamp to bypass cache
-    const script = document.createElement('script');
-    script.src = "../../js/schedules.js?v=" + Date.now();
-
-    // 2. Wait for the script to load BEFORE trying to use the 'schedules' object
-    script.onload = function() {
-      if (typeof schedules === 'undefined' || !schedules[semesterId]) {
-        target.innerHTML = "<p>Course schedule data not found.</p>";
-        return;
-      }
-
-      const courses = schedules[semesterId].courses;
-
-      // 3. Map courses to <tr> rows
-      const rows = courses.map(course => `
-        <tr>
-          <td>${course.name}</td>
-          <td>${course.day}</td>
-          <td>${course.time}</td>
-          <td>${course.instructor}</td>
-        </tr>`).join('');
-
-      // 4. Update the table
-      target.innerHTML = `
-      <table>
-        <thead>
-          <tr>
-            <th>Course Name</th>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Instructor</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${rows}
-        </tbody>
-      </table>`;
-    };
-
-    document.head.appendChild(script);
-  });
-  </script>
-
-  <!-- Custom JavaScript -->
-  
-    <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
-  
-    <script src="../../js/tablesort.js"></script>
-  
-
-  
   </body>
 </html>
