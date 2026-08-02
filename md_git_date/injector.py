@@ -1,4 +1,7 @@
-"""Inject per-page git revision dates into Markdown front matter."""
+"""injector.py.
+
+Inject per-page git revision dates into Markdown front matter.
+"""
 
 from __future__ import annotations
 
@@ -9,16 +12,29 @@ from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+from subprocess import CalledProcessError, TimeoutExpired
 
 
 @dataclass
 class FrontMatter:
+    """Represents the front matter of a Markdown file."""
+
     has_front_matter: bool
     meta_lines: list[str]
     body: str
 
 
 def git_timestamp(repo_root: Path, file_path: Path, creation: bool) -> int | None:
+    """Get the git timestamp for a file.
+
+    Args:
+        repo_root: The root of the git repository.
+        file_path: The path to the file.
+        creation: If True, get the creation timestamp; otherwise, get the last modification timestamp.
+
+    Returns:
+        The git timestamp as an integer, or None if it cannot be determined.
+    """
     rel_path = file_path.relative_to(repo_root)
     cmd = ["git", "log", "-1", "--format=%ct"]
     if creation:
@@ -33,7 +49,7 @@ def git_timestamp(repo_root: Path, file_path: Path, creation: bool) -> int | Non
             stderr=subprocess.DEVNULL,
             text=True,
         ).strip()
-    except Exception:
+    except (CalledProcessError, TimeoutExpired, FileNotFoundError, ValueError):
         return None
 
     if not out:
@@ -46,10 +62,28 @@ def git_timestamp(repo_root: Path, file_path: Path, creation: bool) -> int | Non
 
 
 def fmt_date(ts: int) -> str:
-    return datetime.fromtimestamp(ts).strftime("%Y-%m-%d")
+    """Format a timestamp as YYYY-MM-DD.
+
+    Args:
+        ts: The timestamp to format.
+
+    Returns:
+        The formatted date string.
+    """
+    return datetime.fromtimestamp(ts, tz=datetime.now().astimezone().tzinfo).strftime(
+        "%B %-d, %Y"
+    )
 
 
 def split_front_matter(text: str) -> FrontMatter:
+    """Split the front matter from the body of a Markdown file.
+
+    Args:
+        text: The full text of the Markdown file.
+
+    Returns:
+        A FrontMatter object containing the front matter and body.
+    """
     lines = text.splitlines(keepends=True)
     if not lines:
         return FrontMatter(False, [], "")
@@ -65,6 +99,16 @@ def split_front_matter(text: str) -> FrontMatter:
 
 
 def upsert_key(meta_lines: list[str], key: str, value: str) -> list[str]:
+    """Upsert a key-value pair in the front matter metadata lines.
+
+    Args:
+        meta_lines: The list of metadata lines.
+        key: The key to upsert.
+        value: The value to associate with the key.
+
+    Returns:
+        The updated list of metadata lines.
+    """
     prefix = f"{key}:"
     new_line = f'{key}: "{value}"\n'
 
@@ -80,12 +124,29 @@ def upsert_key(meta_lines: list[str], key: str, value: str) -> list[str]:
 
 
 def render(front_matter: FrontMatter) -> str:
+    """Render the front matter and body back into a Markdown string.
+
+    Args:
+        front_matter: The FrontMatter object to render.
+
+    Returns:
+        The rendered Markdown string.
+    """
     if not front_matter.has_front_matter:
         return front_matter.body
     return "---\n" + "".join(front_matter.meta_lines) + "---\n" + front_matter.body
 
 
 def update_markdown(repo_root: Path, md_file: Path) -> tuple[bool, str]:
+    """Update the front matter of a Markdown file with git revision dates.
+
+    Args:
+        repo_root: The root of the git repository.
+        md_file: The path to the Markdown file.
+
+    Returns:
+        A tuple containing a boolean indicating if the file was changed and the new content.
+    """
     original = md_file.read_text(encoding="utf-8")
     front = split_front_matter(original)
 
@@ -114,10 +175,28 @@ def update_markdown(repo_root: Path, md_file: Path) -> tuple[bool, str]:
 
 
 def find_markdown_files(docs_dir: Path) -> Iterable[Path]:
+    """Find all Markdown files in the docs directory.
+
+    Args:
+        docs_dir: The path to the docs directory.
+
+    Returns:
+        An iterable of paths to Markdown files.
+    """
     return sorted(p for p in docs_dir.rglob("*.md") if p.is_file())
 
 
 def run_injection(repo_root: Path, docs_dir: Path, check: bool = False) -> int:
+    """Run the injection process on all Markdown files in the docs directory.
+
+    Args:
+        repo_root: The root of the git repository.
+        docs_dir: The path to the docs directory.
+        check: If True, do not write files, only check for changes.
+
+    Returns:
+        An exit code: 0 if successful, 1 if changes are needed in check mode, 2 if docs directory is not found.
+    """
     if not docs_dir.exists():
         print(f"Docs directory not found: {docs_dir}", file=sys.stderr)
         return 2
@@ -147,6 +226,14 @@ def run_injection(repo_root: Path, docs_dir: Path, check: bool = False) -> int:
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
+    """Parse command-line arguments for the injector script.
+
+    Args:
+        argv: A sequence of command-line arguments. If None, defaults to sys.argv[1:].
+
+    Returns:
+        An argparse.Namespace object containing the parsed arguments.
+    """
     parser = argparse.ArgumentParser(
         description="Inject git revision metadata into Markdown front matter."
     )
@@ -169,6 +256,13 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    """Main entry point for the injector script.
+    Args:
+        argv: A sequence of command-line arguments. If None, defaults to sys.argv[1:].
+
+    Returns:
+        An exit code.
+    """
     args = parse_args(argv)
     repo_root = Path(args.repo_root).resolve()
     docs_dir = (repo_root / args.docs_dir).resolve()
