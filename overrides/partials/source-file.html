@@ -159,7 +159,7 @@
 
     <!-- Date of last update -->
     {% if updated %}
-      <span class="md-source-file__fact">Last updated: {{ render_updated(updated) }}</span>
+      {{ render_updated(updated) }}
     {% endif %}
 
     <!-- Authors (git-authors plugin) -->
