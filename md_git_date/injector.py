@@ -6,6 +6,7 @@ Inject per-page git revision dates into Markdown front matter.
 from __future__ import annotations
 
 import argparse
+import re
 import subprocess
 import sys
 from collections.abc import Iterable, Sequence
@@ -13,6 +14,16 @@ from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 from subprocess import CalledProcessError, TimeoutExpired
+
+MANAGED_DATE_KEYS = {
+    "git_revision_date_localized",
+    "git_creation_date_localized",
+    "revision_date",
+}
+
+MANAGED_DATE_LINE_RE = re.compile(
+    r"^(git_revision_date_localized|git_creation_date_localized|revision_date)\s*:"
+)
 
 
 @dataclass
@@ -22,6 +33,19 @@ class FrontMatter:
     has_front_matter: bool
     meta_lines: list[str]
     body: str
+
+
+def _run_git(repo_root: Path, args: list[str]) -> str | None:
+    """Run a git command and return stripped output or None on failure."""
+    try:
+        return subprocess.check_output(
+            ["git", *args],
+            cwd=repo_root,
+            stderr=subprocess.DEVNULL,
+            text=True,
+        ).strip()
+    except (CalledProcessError, TimeoutExpired, FileNotFoundError, ValueError):
+        return None
 
 
 def git_timestamp(repo_root: Path, file_path: Path, creation: bool) -> int | None:
@@ -36,21 +60,12 @@ def git_timestamp(repo_root: Path, file_path: Path, creation: bool) -> int | Non
         The git timestamp as an integer, or None if it cannot be determined.
     """
     rel_path = file_path.relative_to(repo_root)
-    cmd = ["git", "log", "-1", "--format=%ct"]
+    args = ["log", "-1", "--format=%ct"]
     if creation:
-        cmd.insert(2, "--diff-filter=A")
-        cmd.insert(3, "--follow")
-    cmd.extend(["--", str(rel_path)])
+        args.extend(["--diff-filter=A", "--follow"])
+    args.extend(["--", str(rel_path)])
 
-    try:
-        out = subprocess.check_output(
-            cmd,
-            cwd=repo_root,
-            stderr=subprocess.DEVNULL,
-            text=True,
-        ).strip()
-    except (CalledProcessError, TimeoutExpired, FileNotFoundError, ValueError):
-        return None
+    out = _run_git(repo_root, args)
 
     if not out:
         return None
@@ -59,6 +74,77 @@ def git_timestamp(repo_root: Path, file_path: Path, creation: bool) -> int | Non
         return int(out)
     except ValueError:
         return None
+
+
+def is_metadata_only_patch(patch_text: str) -> bool:
+    """Return True if a patch only changes injector-managed date metadata lines."""
+    meaningful_change_seen = False
+
+    for raw_line in patch_text.splitlines():
+        if raw_line.startswith(("+++", "---", "@@", "diff --git", "index ")):
+            continue
+
+        if not raw_line.startswith(("+", "-")):
+            continue
+
+        content = raw_line[1:].strip()
+
+        # Ignore front matter fence edits and blank-line churn around metadata.
+        if content in {"", "---"}:
+            continue
+
+        if MANAGED_DATE_LINE_RE.match(content):
+            continue
+
+        meaningful_change_seen = True
+        break
+
+    return not meaningful_change_seen
+
+
+def meaningful_revision_timestamp(repo_root: Path, file_path: Path) -> int | None:
+    """Get most recent commit timestamp that changed more than managed date keys."""
+    rel_path = file_path.relative_to(repo_root)
+    history = _run_git(
+        repo_root,
+        ["log", "--follow", "--format=%H%x09%ct", "--", str(rel_path)],
+    )
+    if not history:
+        return None
+
+    newest_ts: int | None = None
+
+    for line in history.splitlines():
+        if not line.strip():
+            continue
+
+        parts = line.split("\t", maxsplit=1)
+        if len(parts) != 2:
+            continue
+
+        commit_hash, ts_text = parts
+        try:
+            commit_ts = int(ts_text)
+        except ValueError:
+            continue
+
+        if newest_ts is None:
+            newest_ts = commit_ts
+
+        patch = _run_git(
+            repo_root,
+            ["show", "--format=", "--unified=0", commit_hash, "--", str(rel_path)],
+        )
+
+        # If patch extraction fails, keep behavior conservative by using this commit.
+        if patch is None:
+            return commit_ts
+
+        if not is_metadata_only_patch(patch):
+            return commit_ts
+
+    # Fallback to newest commit if all commits appear metadata-only.
+    return newest_ts
 
 
 def fmt_date(ts: int) -> str:
@@ -150,7 +236,7 @@ def update_markdown(repo_root: Path, md_file: Path) -> tuple[bool, str]:
     original = md_file.read_text(encoding="utf-8")
     front = split_front_matter(original)
 
-    revision_ts = git_timestamp(repo_root, md_file, creation=False)
+    revision_ts = meaningful_revision_timestamp(repo_root, md_file)
     creation_ts = git_timestamp(repo_root, md_file, creation=True)
 
     if revision_ts is None:

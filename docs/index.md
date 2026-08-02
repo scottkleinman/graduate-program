@@ -1,7 +1,7 @@
 ---
 title: "Welcome to CSUN English Graduate Program Resources Website"
-revision_date: "August 2, 2026"
-git_revision_date_localized: "August 2, 2026"
+revision_date: "July 21, 2026"
+git_revision_date_localized: "July 21, 2026"
 git_creation_date_localized: "October 29, 2025"
 ---
 

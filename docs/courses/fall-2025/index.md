@@ -3,8 +3,8 @@ title: " Course Offerings"
 semester: "Fall 2025"
 semesterId: "F25"
 template: "courses.html"
-revision_date: "August 2, 2026"
-git_revision_date_localized: "August 2, 2026"
+revision_date: "July 21, 2026"
+git_revision_date_localized: "July 21, 2026"
 git_creation_date_localized: "October 29, 2025"
 ---
 

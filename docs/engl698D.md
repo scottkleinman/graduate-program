@@ -2,8 +2,8 @@
 title: "ENGL 698D - Capstone Course"
 layout: "default"
 nav_id: "engl698D"
-revision_date: "August 2, 2026"
-git_revision_date_localized: "August 2, 2026"
+revision_date: "July 21, 2026"
+git_revision_date_localized: "July 21, 2026"
 git_creation_date_localized: "January 6, 2026"
 ---
 

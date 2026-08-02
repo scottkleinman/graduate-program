@@ -1,7 +1,7 @@
 ---
 title: "Spring 2025 Course Descriptions - CSUN English Graduate Program"
-revision_date: "August 2, 2026"
-git_revision_date_localized: "August 2, 2026"
+revision_date: "July 21, 2026"
+git_revision_date_localized: "July 21, 2026"
 git_creation_date_localized: "October 29, 2025"
 ---
 

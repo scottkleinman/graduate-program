@@ -149,6 +149,8 @@ uv run inject-git-dates --check
 - `uv run site-serve` runs the injector once at startup, then starts the dev server.
 - If you need to refresh metadata while serve is already running, run `uv run inject-git-dates` in another terminal.
 - Untracked files or files without git history will be skipped until they are committed.
+- Revision-date selection ignores commits that only change these managed front matter keys: `git_revision_date_localized`, `git_creation_date_localized`, and `revision_date`.
+- Result: date churn from injector-only commits does not advance "Last updated"; meaningful content/metadata edits still do.
 
 ## 5.1) Build Backend Compatibility (setuptools, Hatchling, etc.)
 
