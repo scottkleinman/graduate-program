@@ -3,6 +3,9 @@ title: " Course Offerings"
 semester: "Spring 2025"
 semesterId: "S25"
 template: "courses.html"
+revision_date: "2026-07-21"
+git_revision_date_localized: "2026-07-21"
+git_creation_date_localized: "2026-07-21"
 ---
 
 ## Schedule of Graduate Classes

@@ -1,5 +1,8 @@
 ---
 title: "Resources for New Students"
+revision_date: "2026-07-21"
+git_revision_date_localized: "2026-07-21"
+git_creation_date_localized: "2025-10-29"
 ---
 
 The CSUN English Department's MA program has three options: Creative Writing, Literature, and Rhetoric & Composition. Although you must choose an option when beginning your program, there is space for you to change options. Please consult the Graduate Adviser if you choose to do this.

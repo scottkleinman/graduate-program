@@ -1,5 +1,8 @@
 ---
 icon: simple/markdown
+revision_date: "2026-07-21"
+git_revision_date_localized: "2026-07-21"
+git_creation_date_localized: "2026-07-21"
 ---
 
 # Markdown in 5min
@@ -104,7 +107,7 @@ Use backslash to escape: \* \_ \# \`
 ## Line breaks
 
 ```
-End a line with two spaces  
+End a line with two spaces
 to create a line break.
 
 Or use a blank line for a new paragraph.

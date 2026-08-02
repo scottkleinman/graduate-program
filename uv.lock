@@ -35,13 +35,17 @@ wheels = [
 [[package]]
 name = "graduate-program"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
+    { name = "markdown" },
     { name = "zensical" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "zensical", specifier = ">=0.0.51" }]
+requires-dist = [
+    { name = "markdown" },
+    { name = "zensical", specifier = ">=0.0.51" },
+]
 
 [[package]]
 name = "jinja2"

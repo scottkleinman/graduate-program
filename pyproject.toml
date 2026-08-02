@@ -1,9 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
-name = "graduate-program"
+name = "graduate_program"
 version = "0.1.0"
 description = "Website of the MA Program at CSUN"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "zensical>=0.0.51",
+    "markdown"
+]
+
+[project.scripts]
+inject-git-dates = "md_git_date.cli:inject_only"
+site-build = "md_git_date.cli:build_site"
+site-serve = "md_git_date.cli:serve_site"
+
+[tool.hatch.build.targets.wheel]
+packages = ["md_git_date"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "md_git_date/**",
+    "scripts/**",
+    "docs/**",
+    "overrides/**",
+    "js/**",
+    "zensical.toml",
+    "pyproject.toml",
+    "README.md",
+    "LICENSE"
 ]

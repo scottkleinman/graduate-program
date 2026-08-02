@@ -3,6 +3,9 @@ title: " Course Offerings"
 semester: "Fall 2026"
 semesterId: "F26"
 template: "courses.html"
+revision_date: "2026-07-21"
+git_revision_date_localized: "2026-07-21"
+git_creation_date_localized: "2025-10-29"
 ---
 
 ## Schedule of Graduate Classes
@@ -72,7 +75,7 @@ The following information provides an explanation of the requirements each cours
 
 - Fall 2026 classes that can fulfil the **Seminar in the Study of Language Core Requirement** for all three options include ENGL 513. Students may also take any 400, 500, or 600-level class in the Linguistics Department to fulfil this requirement (we recommend LING 510 - Foundational Concepts in Linguistics or LING 530 - Intro to TESL).
 
-- ENGL 698D - Graduate Project** is a capstone class that most students in our program take to fulfil their Culminating Experience requirement.
+- ENGL 698D - Graduate Project is a capstone class that most students in our program take to fulfil their Culminating Experience requirement.
 
 !!! warning "Important!"
 
