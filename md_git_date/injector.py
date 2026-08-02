@@ -10,7 +10,7 @@ import subprocess
 import sys
 from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import UTC, datetime
 from pathlib import Path
 from subprocess import CalledProcessError, TimeoutExpired
 
@@ -62,7 +62,7 @@ def git_timestamp(repo_root: Path, file_path: Path, creation: bool) -> int | Non
 
 
 def fmt_date(ts: int) -> str:
-    """Format a timestamp as YYYY-MM-DD.
+    """Format a timestamp as a localized date string.
 
     Args:
         ts: The timestamp to format.
@@ -70,7 +70,7 @@ def fmt_date(ts: int) -> str:
     Returns:
         The formatted date string.
     """
-    return datetime.fromtimestamp(ts, tz=datetime.now().astimezone().tzinfo).strftime(
+    return datetime.fromtimestamp(ts, tz=UTC).astimezone().strftime(
         "%B %-d, %Y"
     )
 
@@ -216,9 +216,13 @@ def run_injection(repo_root: Path, docs_dir: Path, check: bool = False) -> int:
             print("Front matter metadata is out of date for:")
             for path in changed_files:
                 print(path.relative_to(repo_root))
+            print()
+            print("Check mode only: no files were modified.")
+            print("Run without --check to apply updates: uv run inject-git-dates")
             return 1
 
         print("Front matter metadata is up to date.")
+        print("Check mode only: no files were modified.")
         return 0
 
     print(f"Updated {len(changed_files)} Markdown files with git revision metadata.")

@@ -1,8 +1,8 @@
 ---
 title: "Welcome to CSUN English Graduate Program Resources Website"
-revision_date: "2026-07-21"
-git_revision_date_localized: "2026-07-21"
-git_creation_date_localized: "2025-10-29"
+revision_date: "August 2, 2026"
+git_revision_date_localized: "August 2, 2026"
+git_creation_date_localized: "October 29, 2025"
 ---
 
 I am Scott Kleinman, the English Graduate Adviser. I am hosting these resources on my own website because it is easier to maintain than the official CSUN website and because I can avoid some of the visual clutter of the CSUN template. Please note that official information is still available on the [English Department's Graduate Programs page](https://www.csun.edu/humanities/english/graduate-programs){target="_blank"}.

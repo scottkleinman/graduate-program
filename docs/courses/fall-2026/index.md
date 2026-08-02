@@ -3,9 +3,9 @@ title: " Course Offerings"
 semester: "Fall 2026"
 semesterId: "F26"
 template: "courses.html"
-revision_date: "2026-07-21"
-git_revision_date_localized: "2026-07-21"
-git_creation_date_localized: "2025-10-29"
+revision_date: "August 2, 2026"
+git_revision_date_localized: "August 2, 2026"
+git_creation_date_localized: "October 29, 2025"
 ---
 
 ## Schedule of Graduate Classes

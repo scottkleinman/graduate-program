@@ -2,9 +2,9 @@
 title: "ENGL 698D - Capstone Course"
 layout: "default"
 nav_id: "engl698D"
-revision_date: "2026-07-21"
-git_revision_date_localized: "2026-07-21"
-git_creation_date_localized: "2026-01-06"
+revision_date: "August 2, 2026"
+git_revision_date_localized: "August 2, 2026"
+git_creation_date_localized: "January 6, 2026"
 ---
 
 ENGL 698D Graduate Project Course is the capstone course for the English MA. It is meant to be a culminating experience taken **after** you have completed at least two courses specific to your option. The idea is to build upon your learning in those previous courses. You should therefore plan to take courses in your option early in your MA career. You are not allowed to enrol in ENGL 698D unless you have completed the necessary courses and you are in your final two semesters.
