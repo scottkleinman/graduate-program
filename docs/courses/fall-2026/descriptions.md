@@ -13,15 +13,15 @@ Note that course titles here may differ from the catalogue descriptions; they ar
 
 ---
 
-### DH 480: Digital Humanities Studies and Projects -- Kleinman</h3>
+<!--
+### DH 480: Digital Humanities Studies and Projects -- Kleinman
 
 Join a hands-on research course where you will work on two major Digital Humanities projects: The [New Variorum Shakespeare Project](https://newvariorumshakespeare.org/){target="_blank"} and the Lexos a text analysis tool. The New Variorum Shakespeare project began in the nineteenth century with a bold goal: document every prior edition of Shakespeare’s plays while producing new editions. Since 2019, the project has expanded into digital publication, opening exciting new possibilities for how readers and scholars engage with Shakespeare. In DH 480, you will help shape that future. Indeed, the Digital Editor of the project is a graduate of our MA program.
 
 Students in the class will collaborate with the New Variorum Shakespeare staff at Texas A&M to contribute to the editorial pipeline for digital Shakespeare editions or work with Professor Kleinman on developing and testing visualization and analysis tools for Lexos. As part of the team, you will earn authorial credit for your project contributions. Students have the option to continue work on the project in DH 481 as a mentor for new project participants.
 
 The course is available as a substitute for the Language Requirement or the Seminar in Textual or Cultural Studies, as well as for a graduate Elective. In some circumstances, it may substitute for a Literature requirement (consult the Graduate Adviser).
-
----
+-->
 
 ### ENGL 507: Introduction to Graduate Studies -- Hatfield
 

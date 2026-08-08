@@ -17,9 +17,7 @@ Faculty-submitted course descriptions can be found [here](descriptions.md).
 <!-- Course Table -->
 <div id="courses-table"></div>
 
-## 400-Level Courses of Interest
-
-[DH 480: Digital Humanities Studies and Projects](descriptions/#dh-480-digital-humanities-studies-and-projects-kleinman)
+<!-- 400-Level Courses of Interest -->
 
 ---
 
