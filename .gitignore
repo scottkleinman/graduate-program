@@ -47,6 +47,9 @@ node_modules/
 # mkdocs documentation
 # /docs
 
+# Generated site output
+site/
+
 # Vscode config files
 .vscode.json
 .vscode/

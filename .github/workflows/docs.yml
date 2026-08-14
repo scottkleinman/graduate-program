@@ -2,28 +2,37 @@ name: Documentation
 on:
   push:
     branches:
-      - master
       - main
+  workflow_dispatch:
+
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
+
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/configure-pages@v6
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: 3.x
       - run: pip install zensical
       - run: zensical build --clean
-      - uses: actions/upload-pages-artifact@v5
-        with:
-          path: site
-      - uses: actions/deploy-pages@v5
-        id: deployment
+      - name: Publish site branch
+        env:
+          REPO: ${{ github.repository }}
+          BRANCH: gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan "$BRANCH"
+          git reset --hard
+          git clean -fdx
+          cp -a site/. .
+          git add --all
+          git commit -m "Deploy site to gh-pages from ${{ github.ref_name }} (${{ github.sha }})"
+          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${REPO}.git" "$BRANCH"
