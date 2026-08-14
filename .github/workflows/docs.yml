@@ -29,10 +29,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/site
+          cp -a site/. /tmp/site
+          git branch -D "$BRANCH" 2>/dev/null || true
           git checkout --orphan "$BRANCH"
           git reset --hard
           git clean -fdx
-          cp -a site/. .
+          cp -a /tmp/site/. .
           git add --all
           git commit -m "Deploy site to gh-pages from ${{ github.ref_name }} (${{ github.sha }})"
           git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${REPO}.git" "$BRANCH"
