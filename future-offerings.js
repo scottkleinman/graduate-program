@@ -217,7 +217,7 @@ const future2 = {
             "name": "ENGL 608 - Seminar in Narrative Writing",
             "day": "Wednesday",
             "time": "4:00-6:45",
-            "instructor": "Staff"
+            "instructor": "Marcos León Vargas"
           },
           {
             "name": "ENGL 609 - Seminar in Poetry Writing",
