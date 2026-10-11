@@ -49,6 +49,7 @@ nav = [
   { "Prospective Students" = "prospective-students.md" },
   { "New Students" = "new-students.md" },
   { "Course Offerings" = [
+    {"Spring 2027" = ["courses/spring-2027/index.md"]},
     {"Fall 2026" = ["courses/fall-2026/index.md"]},
     {"Spring 2026" = ["courses/spring-2026/index.md"]},
     {"Fall 2025" = ["courses/fall-2025/index.md"]},
