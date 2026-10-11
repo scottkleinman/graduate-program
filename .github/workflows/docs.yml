@@ -1,41 +1,30 @@
 name: Documentation
+
 on:
   push:
     branches:
       - main
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 jobs:
-  build-and-publish:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v6
-        with:
-          python-version: 3.x
-      - run: pip install zensical
-      - run: zensical build --clean
-      - name: Publish site branch
-        env:
-          REPO: ${{ github.repository }}
-          BRANCH: gh-pages
+          python-version: '3.x'
+
+      - name: Install Zensical
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          mkdir -p /tmp/site
-          cp -a site/. /tmp/site
-          git branch -D "$BRANCH" 2>/dev/null || true
-          git checkout --orphan "$BRANCH"
-          git reset --hard
-          git clean -fdx
-          cp -a /tmp/site/. .
-          git add --all
-          git commit -m "Deploy site to gh-pages from ${{ github.ref_name }} (${{ github.sha }})"
-          git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${REPO}.git" "$BRANCH"
+          python -m pip install --upgrade pip
+          pip install zensical
+
+      - name: Build documentation site
+        run: zensical build --clean
+
+      - name: Verify build output
+        run: ls -la site
