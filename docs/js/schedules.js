@@ -1,4 +1,69 @@
 const schedules = {
+  S27: {
+    label: 'Spring 2027',
+    courses: [
+      {
+        name: 'ENGL 507 - Graduate Research and Writing',
+        day: 'Wednesday',
+        time: '04:00pm-06:45pm',
+        instructor: 'Scott Kleinman'
+      },
+      {
+        name: 'ENGL 512 - Writing for Performance',
+        day: 'Wednesday',
+        time: '04:00pm-06:45pm',
+        instructor: 'Rick Mitchell'
+      },
+      {
+        name: 'ENGL 525PB - Picture Book Theory',
+        day: 'Wednesday',
+        time: '07:00pm-09:45pm',
+        instructor: 'Charles Hatfield'
+      },
+      {
+        name: 'ENGL 525SHS - Shakespeare Sonnet',
+        day: 'Thursday',
+        time: '07:00pm-09:45pm',
+        instructor: 'Michael Bryson'
+      },
+      {
+        name: 'ENGL 604 - Semantics, Language & Linguistics',
+        day: 'Monday',
+        time: '04:00pm-06:45pm',
+        instructor: 'Enchao Shi'
+      },
+      {
+        name: 'ENGL 622 - Seminar on Aspects of Poetry',
+        day: 'Tuesday',
+        time: '04:00pm-06:45pm',
+        instructor: 'Leilani Hall'
+      },
+      {
+        name: 'ENGL 623 - Seminar on Prose Fiction',
+        day: 'Thursday',
+        time: '04:00pm-06:45pm',
+        instructor: 'Lauren Byler'
+      },
+      {
+        name: 'ENGL 651 - Rhetoric and Composition Theory',
+        day: 'Tuesday',
+        time: '04:00pm-06:45pm',
+        instructor: 'Jennifer Lee'
+      },
+      {
+        name: 'ENGL 698D - Graduate Project',
+        day: 'Wednesday',
+        time: '07:00pm-09:45pm',
+        instructor: 'Christopher Higgs'
+      },
+      {
+        name: 'ENGL 698D - Graduate Project',
+        day: 'Thursday',
+        time: '04:00pm-06:45pm',
+        instructor: 'Jackie Stallcup'
+      }
+    ]
+  },
   F26: {
     label: 'Fall 2026',
     courses: [
