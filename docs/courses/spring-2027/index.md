@@ -8,7 +8,7 @@ git_revision_date_localized: "July 21, 2026"
 git_creation_date_localized: "July 21, 2026"
 ---
 
-## Schedule of Graduate Classes
+## Schedule of Graduate Classes - Preliminary
 
 *Offerings are projected but not guaranteed. This schedule is subject to change.*
 
