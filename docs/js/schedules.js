@@ -15,8 +15,8 @@ const schedules = {
         instructor: 'Rick Mitchell'
       },
       {
-        name: 'ENGL 525PB - Picture Book Theory',
-        day: 'Wednesday',
+        name: 'ENGL 525CBS - Comic Book Superheroes',
+        day: 'Tuesday',
         time: '07:00pm-09:45pm',
         instructor: 'Charles Hatfield'
       },
@@ -46,8 +46,8 @@ const schedules = {
       },
       {
         name: 'ENGL 651 - Rhetoric and Composition Theory',
-        day: 'Tuesday',
-        time: '04:00pm-06:45pm',
+        day: 'Monday',
+        time: '07:00pm-09:45pm',
         instructor: 'Jennifer Lee'
       },
       {
@@ -58,8 +58,8 @@ const schedules = {
       },
       {
         name: 'ENGL 698D - Graduate Project',
-        day: 'Thursday',
-        time: '04:00pm-06:45pm',
+        day: 'Wednesday',
+        time: '07:00pm-09:45pm',
         instructor: 'Jackie Stallcup'
       }
     ]
