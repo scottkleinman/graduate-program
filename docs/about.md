@@ -70,7 +70,7 @@ The option consists of 30 units, 15 units of core requirements and 15 units of o
 - Literature Option Requirements (15 units)
 - Two 500-600 level seminars, with an emphasis on literature (6 units)
 - Two electives (6 units): Any 400, 500, or 600 level ENGL course. Courses at the 400 level or above in other departments relevant to the student's research interests may be acceptable electives, but please check with the Graduate Adviser before enrolling in a course in another department.
-- Culminating experience (3 units): Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) \[permission number required; can only be taken in the final two semesters after certain  [pre-requisites](../engl698D.md) have been completed\].
+- Culminating experience (3 units): Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) \[permission number required; can only be taken in the final two semesters after certain  [pre-requisites](engl698D.md) have been completed\].
 
 ## Creative Writing Option
 
@@ -88,7 +88,7 @@ The option consists of 30 units, 15 units of core requirements and 15 units of o
 
 - Two 500-600 level seminars, with an emphasis on creative writing (6 units)
 - Two electives (6 units): Any 400, 500, or 600 level ENGL course. Courses at the 400 level or above in other departments relevant to the student's research interests may be acceptable electives, but please check with the Graduate Adviser before enrolling in a course in another department.
-- Culminating experience (3 units): ENGL 698D (Capstone) \[permission number required; can only be taken in the final two semesters after certain  [pre-requisites](../engl698D.md) have been completed.\]
+- Culminating experience (3 units): ENGL 698D (Capstone) \[permission number required; can only be taken in the final two semesters after certain  [pre-requisites](engl698D.md) have been completed.\]
 
 !!! note
     Creative writing students must take two creative writing workshops in their primary genre (poetry, prose, or drama). Creative writing workshops can be taken to fulfill the following requirements above: Seminar in Genre Studies, Seminar in Cultural or Textual Studies, 500-600 level creative writing seminars, and electives.
@@ -111,7 +111,7 @@ The option consists of 30 units, 15 units of core requirements and 15 units of o
 
 - Two 500-600 level seminars, with an emphasis on rhetoric and composition (6 units)
 - Two electives (6 units): Any 400, 500, or 600 level ENGL course. Courses at the 400 level or above in other departments relevant to the student's research interests may be acceptable electives, but please check with the Graduate Adviser before enrolling in a course in another department.
-- Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) (permission number required; can only be taken in the final two semesters after certain [pre-requisites](../engl698D.md) have been completed).
+- Culminating experience (3 units): ENGL 697C (Exam), ENGL 698D (Capstone) (permission number required; can only be taken in the final two semesters after certain [pre-requisites](engl698D.md) have been completed).
 
 ---
 
@@ -137,7 +137,7 @@ Students enrolled in MA programs have three options for completing their culmina
 - This course is only offered in Spring semesters. (Students who plan to graduate in a Fall semester may take this course in the Spring prior to the semester in which they will graduate.)
 - Usually, two sections of this course are offered: one for Creative Writing students and one for Literature and Rhetoric & Composition students.
 - As this is a **capstone** class, it is taken near the end of the student's progress towards the degree It generally involves revising and expanding a paper or creative work completed in a previous graduate class, though some instructors allow new research or focus on cultivating a portfolio of creative works.
-- As of Spring 2026, ENGL 698D **must** be taken in the student's final two semesters **after** having completed two graduate-level seminars that count towards the student's option. One of these courses may be the theory course for their option (ENGL 638, ENGL 651, or ENGL 652). See [ENGL 698D](../engl698D.md) for further details about eligibility. Please consult the Graduate Adviser or the Graduate Coordinator if you are unsure whether you are eligible to enroll in ENGL 698D.
+- As of Spring 2026, ENGL 698D **must** be taken in the student's final two semesters **after** having completed two graduate-level seminars that count towards the student's option. One of these courses may be the theory course for their option (ENGL 638, ENGL 651, or ENGL 652). See [ENGL 698D](engl698D.md) for further details about eligibility. Please consult the Graduate Adviser or the Graduate Coordinator if you are unsure whether you are eligible to enroll in ENGL 698D.
 - Professional development opportunities will also be part of the class (e.g. crafting a CV or resumé, writing artist statements, writing conference proposals, creating effective job letters, and talks from previous English MA graduates about their career paths). Whatever the project is, it is officially known as a Graduate Project.
 - All CSUN English MA students who are enrolled in or have taken ENGL 698D must complete and submit an Electronic Thesis and Dissertation (ETD) form in the semester they have filed to graduate. The purpose of ETD is to create an official archive of the Graduate Project's completion that is accessible to the public. Students do not submit the project itself — just a 350-word abstract. The submission takes place in three phases: Planning, Preliminary, and Final. In the Planning Phase, students submit a working title and the names of faculty committee members. In the Preliminary Phase, they submit a preliminary abstract of their project. In the Final Phase, they submit a revised abstract. The deadlines for each phase are scattered throughout the semester. After each submission Graduate Studies checks for incorrect information or editing errors. It is the student's responsibility to check the ETD website for any required format change(s). Failure to meet any of the deadlines results in a delay of the graduation date to the next available semester.
 
