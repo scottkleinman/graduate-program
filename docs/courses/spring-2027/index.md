@@ -3,7 +3,7 @@ title: " Course Offerings"
 semester: "Spring 2027"
 semesterId: "S27"
 template: "courses.html"
-revision_date: "October 11, 2026"
+revision_date: "October 23, 2026"
 git_revision_date_localized: "July 21, 2026"
 git_creation_date_localized: "July 21, 2026"
 ---
@@ -19,6 +19,18 @@ git_creation_date_localized: "July 21, 2026"
 
     Before enrolling in ENGL 698D, check whether you are eligible based on the criteria discussed <a href="#ENGL698D">here</a>.
 
+## 400 and Other Courses of Interest
+
+The following 400-level and other courses may be of interest to graduate students. Please check with the Graduate Adviser to see whether they can be applied toward your graduate program requirements.
+
+1. DH 480 - Digital Humanities Studies and Projects
+
+## Course Descriptions
+
+Faculty-submitted course descriptions can be found [here](descriptions.md).
+
+---
+
 ## Class Caps & Waitlisting
 
 All graduate courses currently have enrollment caps set at **14** students. On **December 12**, these caps will increase to **20** as non-restrictive registration begins.
@@ -26,10 +38,6 @@ All graduate courses currently have enrollment caps set at **14** students. On *
 If a course you’d like to take is currently full, be sure to **add yourself to the waitlist**. Students in positions 1–6 on a waitlist will be automatically enrolled once the cap is raised.
 
 For guidance on registration, using permission numbers, and how to waitlist for classes, visit [https://www.csun.edu/current-students](https://www.csun.edu/current-students).
-
-## Course Descriptions
-
-Faculty-submitted course descriptions can be found [here](descriptions.md).
 
 ---
 
