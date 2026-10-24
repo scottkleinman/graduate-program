@@ -13,6 +13,10 @@ Below are course descriptions submitted by instructors for Spring 2027 graduate 
 
 English 507 introduces students to graduate-level research and writing skills across the three options in the English MA program: Literature, Creative Writing, and Rhetoric and Composition.
 
+### ENGL 525CBS: Comic Book Superheroes -- Hatfield
+
+Intensive study of the superhero genre in US comic books from the mid-1930s onward, with attention to its enduring controversies. We will survey the genre’s history during the first third of the course, then concentrate on recent examples of academic superhero criticism and theory. Expect discussion of form, aesthetics, seriality, politics, gender, sexuality, race, disability, and fandom. Scholars studied may include, for example, Umberto Eco, Ramzi Fawaz, Samantha Langsdale, Anna Peppard, Darieck Scott, and Daniel Stein. Students will share reading responses during most weeks, take turns leading discussion, brainstorm a superhero of their own, and write a final seminar paper engaging with the critical literature.
+
 <!-- Course Descriptions
 ### ENGL 622: Contemporary Poetry & the Record of History -- Hall
 
