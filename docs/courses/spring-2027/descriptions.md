@@ -17,11 +17,11 @@ English 507 introduces students to graduate-level research and writing skills ac
 
 Intensive study of the superhero genre in US comic books from the mid-1930s onward, with attention to its enduring controversies. We will survey the genre’s history during the first third of the course, then concentrate on recent examples of academic superhero criticism and theory. Expect discussion of form, aesthetics, seriality, politics, gender, sexuality, race, disability, and fandom. Scholars studied may include, for example, Umberto Eco, Ramzi Fawaz, Samantha Langsdale, Anna Peppard, Darieck Scott, and Daniel Stein. Students will share reading responses during most weeks, take turns leading discussion, brainstorm a superhero of their own, and write a final seminar paper engaging with the critical literature.
 
-<!-- Course Descriptions
 ### ENGL 622: Contemporary Poetry & the Record of History -- Hall
 
-Tina Turner famously questioned *What's love got to do with it?* This graduate seminar examines the erotic and erotic love as a central...
--->
+Tina Turner famously questioned *What's love got to do with it?* This graduate seminar examines the erotic and erotic love as a central problem and generative force in the history of poetry. Focusing on poetry across periods, cultures, and literary traditions, this course considers how poets represent desire, intimacy, embodiment, longing, pleasure, absence, and loss. Readings will engage theories of eros, sexuality, gender, embodiment, and subjectivity alongside primary poetic texts. As scholars and poets, we will give particular attention to the ways language and form mediate erotic experience as well as to the tensions between private desire and cultural, ethical, and political structures. We will not only ask Turner's famous question, but we'll ask How do we write love? How do we write the erotic? How do we articulate the body? Navigate the bawdy? Code language? Primary texts will range from ancient to contemporary, including Sappho, Ovid, Shakespeare, Whitman, Dickinson, Neruda, Lorde, Olds, Chen, Hickock, and Vuong, among others. Secondary readings may include Bataille, Foucault, Sedgwick, Lorde, and Carson.
+
+Students may take this course for literature credit or poetry workshop credit, electing either to write a brief collection of erotic/love poems with a critical preface OR a scholarly examination of erotic/love poetry through the study of selected primary texts for a conference-primed paper.
 
 ### DH 480: Digital Humanities Studies and Projects -- Kleinman
 
