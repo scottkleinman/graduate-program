@@ -13,13 +13,13 @@ Below are course descriptions submitted by instructors for Spring 2027 graduate 
 
 English 507 introduces students to graduate-level research and writing skills across the three options in the English MA program: Literature, Creative Writing, and Rhetoric and Composition.
 
-### ENGL 525SHS: Shakespeare Sonnet -- Bryson
-
-Though Shakespeare is often the first name that comes to mind when thinking of the Sonnet, he is actually a late practitioner of an already-centuries old form. This course will trace the sonnet's history, starting with its Persian and Arabic roots in the ghazal tradition, working through the canso tradition of the Provencal troubadours, and into the dolce stil novo tradition of the Sicilian and Italian poets of the 13th-15th centuries, before arriving in England with Shakespeare's predecessors and Shakespeare himself.
-
 ### ENGL 525CBS: Comic Book Superheroes -- Hatfield
 
 Intensive study of the superhero genre in US comic books from the mid-1930s onward, with attention to its enduring controversies. We will survey the genre’s history during the first third of the course, then concentrate on recent examples of academic superhero criticism and theory. Expect discussion of form, aesthetics, seriality, politics, gender, sexuality, race, disability, and fandom. Scholars studied may include, for example, Umberto Eco, Ramzi Fawaz, Samantha Langsdale, Anna Peppard, Darieck Scott, and Daniel Stein. Students will share reading responses during most weeks, take turns leading discussion, brainstorm a superhero of their own, and write a final seminar paper engaging with the critical literature.
+
+### ENGL 525SHS: Shakespeare Sonnet -- Bryson
+
+Though Shakespeare is often the first name that comes to mind when thinking of the Sonnet, he is actually a late practitioner of an already-centuries old form. This course will trace the sonnet's history, starting with its Persian and Arabic roots in the ghazal tradition, working through the canso tradition of the Provencal troubadours, and into the dolce stil novo tradition of the Sicilian and Italian poets of the 13th-15th centuries, before arriving in England with Shakespeare's predecessors and Shakespeare himself.
 
 ### ENGL 622: The Poetics of Intimacy: Love and Eroticism in Poetry -- Hall
 
