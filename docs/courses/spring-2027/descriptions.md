@@ -27,6 +27,10 @@ Tina Turner famously questioned *What's love got to do with it?* This graduate s
 
 Students may take this course for literature credit or poetry workshop credit, electing either to write a brief collection of erotic/love poems with a critical preface OR a scholarly examination of erotic/love poetry through the study of selected primary texts for a conference-primed paper.
 
+### ENGL 698D: Graduate Project -- Stallcup
+
+This course is one of the available choices for the culminating experience in the English department M.A. program. In significantly revising existing written work, students will practice the tools of research used in the field of English Studies. While students in the Literature and the Rhetoric and Composition Options will focus on revising and developing a previously written essay, students in the Creative Writing Option will write a critical introduction to a revised portfolio of their creative work. Additionally, students will gain experience with professional conferences, presentations and productions.
+
 ### DH 480: Digital Humanities Studies and Projects -- Kleinman
 
 This will be a hands-on research course where you will work on two major Digital Humanities projects: The [New Variorum Shakespeare Project](https://newvariorumshakespeare.org/){target="_blank"} and the Lexos a text analysis tool. The New Variorum Shakespeare project began in the nineteenth century as an attempt to document every prior edition of Shakespeare’s plays while producing new editions. Since 2019, the project has expanded into digital publication (led by a graduate of our MA program here at CSUN). As part of the project, you will transcribe editions of Shakespeare's plays from a variety of periods and explore how they can be compared digitally using Lexos. You will make lasting contributions to one or both projects and will receive credit for your contributions on the project websites. The course is a chance to participate actual scholarly research as opposed to the traditional course assignments for a grade. You will gain valuable experience in digital humanities methodologies and collaborative research practices.
