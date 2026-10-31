@@ -27,9 +27,13 @@ Tina Turner famously questioned *What's love got to do with it?* This graduate s
 
 Students may take this course for literature credit or poetry workshop credit, electing either to write a brief collection of erotic/love poems with a critical preface OR a scholarly examination of erotic/love poetry through the study of selected primary texts for a conference-primed paper.
 
+### ENGL 623: Novel/Style/Theory -- Byler
+
+This course will focus on the works of three nineteenth-century novelists known for their distinctive prose styles: Jane Austen, Charles Dickens, and Henry James. Alongside works including *Emma* (1815), *A Christmas Carol* (1843), and *What Maisie Knew* (1897), we wil investigate theories of novelistic style as well as theories of the novel and theories of reading. Students will also have the opportunity to produce critical and creative work related to CSUN’s Harry Stone Collection of harles Dickens materials, which will be the focus of a year-long exhibition in 2028-2029. For more information, contact Professor Byler at Lauren.Byler@csun.edu.
+
 ### ENGL 698D: Graduate Project -- Stallcup
 
-This course is one of the available choices for the culminating experience in the English department M.A. program. In significantly revising existing written work, students will practice the tools of research used in the field of English Studies. While students in the Literature and the Rhetoric and Composition Options will focus on revising and developing a previously written essay, students in the Creative Writing Option will write a critical introduction to a revised portfolio of their creative work. Additionally, students will gain experience with professional conferences, presentations and productions.
+This course is one of the available choices for the culminating experience in the English department M.A. program. In significantly revising existing written work, students will practice the tools of research used in the field of English Studies. Students in the Literature and the Rhetoric and Composition Options will focus on revising and developing a previously written essay. Additionally, students will gain experience with professional conferences, presentations and productions.
 
 ### DH 480: Digital Humanities Studies and Projects -- Kleinman
 
