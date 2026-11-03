@@ -65,7 +65,7 @@ The following information provides an explanation of the requirements each cours
 
 **ENGL 651 - Rhetoric and Composition Theory** is a Rhetoric & Composition seminar. For Rhetoric & Composition students, it fulfils the Theory requirement. For Literature and Creative Writing Students, it can fulfil the Cultural or Textual Studies requirement or an Elective.
 
-<a id="ENGL698D"></a>**ENGL 698D - Graduate Project** is the culminating experience. All Creative Writing and Rhetoric & Composition students must take this course, preferably in their final two semesters. Literature student generally also take this course, but they have the option of enrolling in ENGL 697C, which is a Comprehensive Exam.
+<a id="ENGL698D"></a>**ENGL 698D - Graduate Project** is the culminating experience. All Creative Writing students must take this course, preferably in their final two semesters. Literature and Rhetoric & Composition students generally also take this course, but they have the option of enrolling in ENGL 697C, which is a Comprehensive Exam.
 
 !!! warning "Important!"
 
