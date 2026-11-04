@@ -37,6 +37,10 @@ This course will focus on the works of three nineteenth-century novelists known 
 
 Students in this class will also have the opportunity to contribute public-facing descriptive, critical, and creative work to the 2028-2029 CSUN Library Exhibition of works from the Harry Stone Collection archive, which focuses on the life and works of Charles Dickens, featuring first editions of the novels, original serial installments of Dickens’s works, letters written by the author and his family, memorabilia, artwork, creepy dolls, and Christmas kitsch.
 
+### ENGL 698D: Graduate Project -- Higgs
+
+This is the creative writing choice for the culminating experience in the English department M.A. Program. Students will write a critical introduction to a revised portfolio of their creative work. Additionally, students will gain experience with professional conferences, presentations, and productions.
+
 ### ENGL 698D: Graduate Project -- Stallcup
 
 This course is one of the available choices for the culminating experience in the English department M.A. program. In significantly revising existing written work, students will practice the tools of research used in the field of English Studies. Students in the Literature and the Rhetoric and Composition Options will focus on revising and developing a previously written essay. Additionally, students will gain experience with professional conferences, presentations and productions.
