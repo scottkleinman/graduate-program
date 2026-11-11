@@ -41,6 +41,12 @@ Financial aid of various types is available to qualifying students. Students sho
 
 ---
 
+### Single Subject Teaching Credential and English MA
+
+The English MA is an academic degree entirely separate from the [Single Subject Teaching credential](https://catalog.csun.edu/academics/sed/programs/single-subject-preliminary-credential-i/traditional-program/){target="_blank"}. Many students complete the credential whilst they are doing the English MA, but doing so lengthens the time to graduation. Students may count 500-600 level SED courses for the Single Subject credential as Elective towards the English MA. Otherwise, there can be no overlap between the two programs.
+
+---
+
 ## Program Requirements
 
 The course schedule for each upcoming semester is available from the links in the sidebar. If you need help choosing courses to meet the course requirements, please confer with the Graduate Adviser.
